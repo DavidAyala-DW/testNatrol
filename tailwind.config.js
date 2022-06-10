@@ -11,11 +11,11 @@ module.exports = {
       }
     },
     screens: {
-      '2xl': {'min': '1535px'},
-      'xl': {'min': '1279px'},
-      'lg': {'min': '1023px'},
-      'md': {'min': '767px'},
       'sm': {'min': '640px'},
+      'md': {'min': '767px'},
+      'lg': {'min': '1023px'},
+      'xl': {'min': '1279px'},
+      '2xl': {'min': '1535px'},        
     }
   },
   plugins: [],
