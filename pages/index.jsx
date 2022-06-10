@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
-import Topbar from '../components/topbar'
+import Topbar from '../components/Topbar'
 
 export default function Home() {
   return (
@@ -14,6 +14,6 @@ export default function Home() {
       <Hero/>
       <Footer/>
     </div>
-    
+
   )
 }
