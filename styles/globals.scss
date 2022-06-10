@@ -2,7 +2,9 @@
   font-family: 'brooklyn';
   src: url('../public/Brooklyn-Bold.ttf') format('opentype'),
        url('../public/Brooklyn-Bold.woff') format('truetype');
-  font-weight: 700
+  font-weight: 700;
+  font-display: swap;
+
 };
 
 @font-face {
@@ -10,20 +12,25 @@
   src: url('../public/Brooklyn-Heavy.ttf') format('opentype'),
        url('../public/Brooklyn-Heavy.woff') format('truetype');
   font-weight: 900;
+  font-display: swap;
+
 };
 
 @font-face {
   font-family: 'brooklyn';
   src: url('../public/Brooklyn-Normal.ttf') format('opentype'),
        url('../public/Brooklyn-Normal.woff') format('truetype');
-  font-weight: 400
+  font-weight: 400;
+  font-display: swap;
+
 };
 
 @font-face {
   font-family: 'brooklyn';
   src: url('../public/Brooklyn-SemiBold.ttf') format('opentype'),
        url('../public/Brooklyn-SemiBold.woff') format('truetype');
-  font-weight: 600
+  font-weight: 600;
+  font-display: swap;
 };
 
 
