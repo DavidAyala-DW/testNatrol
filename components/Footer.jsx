@@ -7,7 +7,7 @@ function Footer() {
 
       <div className="flex flex-col">
 
-        <div className="grid grid-cols-1 xm:grid-cols-2 lg:grid-cols-3 xs:grid-cols-4 gap-x-5 gap-y-12">
+        <div className="grid grid-cols-1 xm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-12">
 
           <div className="flex flex-col">
 
