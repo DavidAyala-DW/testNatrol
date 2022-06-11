@@ -1,54 +1,71 @@
 import React from 'react'
 import Image from "next/image";
+import HeroArrow from "../public/hero_arrow.svg";
 
 function Hero() {
   return (
 
     <div className="w-full relative">
 
-      <div className="hidden sm:block">        
+      <div className="hidden xl:block">        
+
         <Image
-          src="/hero_eredita.webp"
+          src="/hero_banner.png"
           alt="alt"
           layout='responsive'
-          width={1024}
-          height={410}
+          width={1440}
+          height={925}
           priority={true}
           quality={100}
         />
+
       </div>
 
-      <div className="block sm:hidden">
+      <div className="block xl:hidden h-[calc(100vw*1.3)] max-h-[800px] md:max-h-[700px] lg:max-h-[800px] overflow-hidden">        
+
         <Image
-          src="/hero_eredita_mobile.webp"
+          src="/hero_banner.png"
           alt="alt"
           layout='responsive'
-          width={1024}
-          height={1024}
+          width={1440}
+          height={1900}
           priority={true}
           quality={100}
         />
+
       </div>
 
-      <div className="absolute left-1 right-1 bottom-2 sm:bottom-0 sm:inset-0 sm:left-[100px] flex flex-col justify-end sm:justify-center">
+      <div className="absolute inset-0 w-full h-full bg-hero"></div>
 
-        <div className="flex flex-col h-[fit-content] bg-[rgba(0,0,0,.5)] px-2.5 py-[30px] sm:px-0 sm:py-0 sm:bg-none sm:bg-transparent w-full sm:w-[35%]">
+      <div className="absolute inset-0 md:-top-5">
 
-          <p className="text-xs text-center sm:text-left sm:text-[14px] text-white font-bold uppercase tracking-[.2em]">
-            A new era of luxury:
-          </p>
+        <div className="w-full flex flex-col h-full max-w-[95%] md:max-w-[62.5%] mx-auto">
 
-          <h2 className="text-center sm:text-left text-[22px] sm:text-[40px] mt-2.5 mb-6 text-white font-bold capitalize tracking-[0] leading-[normal]">
-            Philipp Plein
-          </h2>
+          <Image
+            src="/hero_main.png"
+            alt="alt"
+            layout='responsive'
+            width={900}
+            height={688}
+            priority={true}
+            quality={100}
+          />
 
-          <p className="px-7 mx-auto sm:mx-0 max-w-max py-[14px] text-white text-[13px] uppercase outline-white leading-[normal] outline outline-[1.5px] text-center tracking-[.2em] font-normal m-2">
-            Explore Now
-          </p>
+          <a className="w-max mb-4 md:mb-[30px] mx-auto text-[13px] leading-[15.6px] font-bold border border-primary text-primary text-center px-3 py-2.5 uppercase tracking-[.145em]" href="">
+            JOINTHE PROMOTION
+          </a>
+
+          <h4 className="max-w-[220px] mb-2 md:mb-5 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
+            Exclusive Opportunity
+          </h4>
+
+          <div className="flex flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
+            <HeroArrow/>
+          </div>  
 
         </div>
 
-      </div>
+      </div>    
 
     </div>
 
