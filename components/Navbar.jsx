@@ -1,6 +1,7 @@
 import React from 'react';
 import Eredita_logo from "../public/eredita_logo.svg";
 import Cineplex_logo from "../public/cineplex_logo.svg";
+import Button from './UI/Button';
 
 function Navbar() {
 
@@ -33,8 +34,13 @@ function Navbar() {
 
       </nav>
 
-      <a href="" className="hidden 1.5xl:block border border-white py-2.5 px-3 text-white uppercase tracking-[.145em] text-[13px] leading-4 font-bold text-center">
-        Join THe promotion
+      <a href="" className="hidden 1.5xl:block">
+        <Button
+          color={"white"}
+          text={"Join the promotion"}
+          size={"small"}
+          type={"button"}
+        />
       </a>
 
     </header>

@@ -7,7 +7,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Bold.ttf"
+          href="/Brooklyn-Bold.ttf"
           as="font"
           crossOrigin=""
           type="font/ttf"
@@ -15,7 +15,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Bold.woff"
+          href="/Brooklyn-Bold.woff"
           as="font"
           crossOrigin=""
           type="font/woff"
@@ -23,7 +23,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Heavy.ttf"
+          href="/Brooklyn-Heavy.ttf"
           as="font"
           crossOrigin=""
           type="font/ttf"
@@ -31,7 +31,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Heavy.woff"
+          href="/Brooklyn-Heavy.woff"
           as="font"
           crossOrigin=""
           type="font/woff"
@@ -39,7 +39,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Normal.ttf"
+          href="/Brooklyn-Normal.ttf"
           as="font"
           crossOrigin=""
           type="font/ttf"
@@ -47,7 +47,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-Normal.woff"
+          href="/Brooklyn-Normal.woff"
           as="font"
           crossOrigin=""
           type="font/woff"
@@ -55,7 +55,7 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-SemiBold.ttf"
+          href="/Brooklyn-SemiBold.ttf"
           as="font"
           crossOrigin=""
           type="font/ttf"
@@ -63,10 +63,26 @@ export default function Document() {
 
         <link
           rel="preload"
-          href="../public/Brooklyn-SemiBold.woff"
+          href="/Brooklyn-SemiBold.woff"
           as="font"
           crossOrigin=""
           type="font/woff"
+        />
+
+        <link
+          rel="preload"
+          href="/stardustertitleital.woff"
+          as="font"
+          crossOrigin=""
+          type="font/woff"
+        />
+
+        <link
+          rel="preload"
+          href="/stardustertitleital.ttf"
+          as="font"
+          crossOrigin=""
+          type="font/ttf"
         />
 
       </Head>

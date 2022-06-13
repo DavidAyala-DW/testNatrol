@@ -10,13 +10,21 @@ module.exports = {
         "primary": "#001C71"
       },
       backgroundImage: {
-        "hero": "linear-gradient(0deg, rgba(255, 255, 255, 0.83) 0%, rgba(255, 255, 255, 0.83) 56.23%, rgba(255, 255, 255, 0) 145.89%)"
+        "hero": "linear-gradient(0deg, rgba(255, 255, 255, 0.83) 0%, rgba(255, 255, 255, 0.83) 56.23%, rgba(255, 255, 255, 0) 145.89%)",
+        "banner_text": "linear-gradient(179.81deg, #19213A 31.55%, #001C71 99.83%)"
+      },
+      fontFamily:{
+        "starduster": ["Starduster Title Italic"]
+      },
+      boxShadow:{
+        "introduction": "0px 2px 6px rgba(151, 172, 198, 0.25)"
       }
     },
     screens: {
       "xs": {'min': '480px'},
       'sm': {'min': '640px'},
       'md': {'min': '767px'},
+      'md2': {'min': '980px'},
       'lg': {'min': '1023px'},
       'xl': {'min': '1279px'},
       "1.5xl": {'min': '1330px'},

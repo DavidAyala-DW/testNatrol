@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import HeroArrow from "../public/hero_arrow.svg";
+import Button from './UI/Button';
 
 function Hero() {
   return (
@@ -51,8 +52,16 @@ function Hero() {
             quality={100}
           />
 
-          <a className="w-max mb-4 md:mb-[30px] mx-auto text-[13px] leading-[15.6px] font-bold border border-primary text-primary text-center px-3 py-2.5 uppercase tracking-[.145em]" href="">
-            JOINTHE PROMOTION
+          <a
+            className="w-max mb-4 md:mb-[30px] mx-auto "
+            href=""
+          >
+            <Button
+              color={"primary"}
+              text={"JOIN THE PROMOTION"}
+              size={"small"}
+              type={"button"}
+            />
           </a>
 
           <h4 className="max-w-[220px] mb-2 md:mb-5 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
