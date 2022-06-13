@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#001C71"
+        "primary": "#001C71",
+        "contact_us": "#0066CC"
       },
       backgroundImage: {
         "hero": "linear-gradient(0deg, rgba(255, 255, 255, 0.83) 0%, rgba(255, 255, 255, 0.83) 56.23%, rgba(255, 255, 255, 0) 145.89%)",

@@ -26,32 +26,36 @@ function ContactUs() {
 
         <form className="bg-white flex space-y-8 flex-col w-full pt-8 pb-4 px-[25px] rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]">
 
-          <fieldset className="fieldset border border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Full_Name']
+          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Full_Name']
             after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
+            focus-within:after:text-contact_us focus-within:border-contact_us
           ">
 
             <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
 
           </fieldset>
 
-          <fieldset className="fieldset border border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Contact_Number']
+          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Contact_Number']
             after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
-          ">
-            
-            <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
-
-          </fieldset>
-
-          <fieldset className="fieldset border border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Email_Address']
-            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
+            focus-within:after:text-contact_us focus-within:border-contact_us
           ">
             
             <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
 
           </fieldset>
 
-          <fieldset className="fieldset border border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Message']
+          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Email_Address']
             after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
+            focus-within:after:text-contact_us focus-within:border-contact_us
+          ">
+            
+            <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
+
+          </fieldset>
+
+          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Message']
+            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
+            focus-within:after:text-contact_us focus-within:border-contact_us
           ">
 
             <textarea className="p-4 resize-none text-black outline-none w-full rounded-[4px] min-h-[201px]" name="" ></textarea>
