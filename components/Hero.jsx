@@ -29,7 +29,7 @@ function Hero() {
 
         <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[600px] 3xl:max-w-[900px] mx-auto z-20 pb-10">
 
-          <div className="block -translate-y-5">
+          <div className="block lg:-translate-y-5">
             <Image
               src={HeroMain}
               alt="hero_main.webp"
@@ -39,7 +39,7 @@ function Hero() {
             />
           </div>
 
-          <div className="flex flex-col -translate-y-10">
+          <div className="flex flex-col lg:-translate-y-10">
             <a
               className="w-max mb-4 md:mb-[25px] mx-auto "
               href=""

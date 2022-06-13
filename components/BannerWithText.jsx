@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Banner from "../public/rows-red-seats-theater.webp";
 
 function BannerWithText() {
 
@@ -11,9 +12,9 @@ function BannerWithText() {
 
         <div className="block absolute inset-0 w-full h-full">
           <Image
-            src={"/rows-red-seats-theater1.png"}    
+            src={Banner}    
             layout={"fill"}
-            alt={"rows-red-seats-theater1.png"}
+            alt={"rows-red-seats-theater.webp"}
             quality={100}
             className="object-cover"
           />
