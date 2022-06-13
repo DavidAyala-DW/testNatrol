@@ -3,6 +3,7 @@ import React from 'react';
 import Glass from "../public/glass.svg";
 import RightArrow from "../public/right.svg";
 import LeftArrow from "../public/left.svg";
+import Girl from "../public/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophtha.webp";
 
 function AuthorizedRetailer() {
   return (
@@ -21,10 +22,8 @@ function AuthorizedRetailer() {
         
         <div className="block absolute inset-0 z-[-1] h-full lg:hidden w-full">          
           <Image
-            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
-            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
-            width={724}
-            height={401}
+            src={Girl}
+            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.webp"}
             layout="fill" 
             quality={100}
             className="rounded-[10px] object-cover"
@@ -33,8 +32,8 @@ function AuthorizedRetailer() {
 
         <div className="hidden lg:block w-full">          
           <Image
-            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
-            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
+            src={Girl}
+            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.webp"}
             width={724}
             height={401}
             layout="responsive" 

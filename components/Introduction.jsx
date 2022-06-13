@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import Button from './UI/Button'
+import Glass from "../public/590332_1644363131835_600x3001.webp"
 
 function Introduction() {
 
@@ -44,11 +45,9 @@ function Introduction() {
         <div className="block w-full h-full relative">
 
           <Image
-            src={"/590332_1644363131835_600x3001.png"}
-            alt="590332_1644363131835_600x3001.png"
+            src={Glass}
+            alt="590332_1644363131835_600x3001.webp"
             layout="responsive"
-            width={778}
-            height={372}
             className="object-cover"
           />
 

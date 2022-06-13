@@ -69,22 +69,6 @@ export default function Document() {
           type="font/woff"
         />
 
-        <link
-          rel="preload"
-          href="/stardustertitleital.woff"
-          as="font"
-          crossOrigin=""
-          type="font/woff"
-        />
-
-        <link
-          rel="preload"
-          href="/stardustertitleital.ttf"
-          as="font"
-          crossOrigin=""
-          type="font/ttf"
-        />
-
       </Head>
       <body>
         <Main />
