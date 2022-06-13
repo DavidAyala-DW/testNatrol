@@ -44,8 +44,8 @@ function Introduction() {
         <div className="block w-full h-full relative">
 
           <Image
-            src={"/590332_1644363131835_600x300 1.png"}
-            alt="590332_1644363131835_600x300 1.png"
+            src={"/590332_1644363131835_600x3001.png"}
+            alt="590332_1644363131835_600x3001.png"
             layout="responsive"
             width={778}
             height={372}
@@ -69,8 +69,8 @@ function Introduction() {
 
             <div className="block w-full">
               <Image
-                src={"/BulletTrain-Header-Sample2 2.png"}
-                alt="BulletTrain-Header-Sample2 2.png"
+                src={"/BulletTrain-Header-Sample22.png"}
+                alt="BulletTrain-Header-Sample22.png"
                 layout="responsive"
                 width={159}
                 height={59}

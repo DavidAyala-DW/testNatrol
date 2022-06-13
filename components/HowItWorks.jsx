@@ -15,8 +15,8 @@ function HowItWorks() {
         
         <div className="absolute inset-0 w-full overflow-hidden z-[-1] h-full lg:hidden rounded-[12px]">                  
           <Image
-            src={"/cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema 1.png"}
-            alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema 1.png"}
+            src={"/cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.png"}
+            alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.png"}
             width={568}
             height={538}
             layout="fill" 
@@ -27,8 +27,8 @@ function HowItWorks() {
 
         <div className="w-full hidden lg:block rounded-[12px]">          
           <Image
-            src={"/cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema 1.png"}
-            alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema 1.png"}
+            src={"/cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.png"}
+            alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.png"}
             width={568}
             height={538}
             layout="responsive" 

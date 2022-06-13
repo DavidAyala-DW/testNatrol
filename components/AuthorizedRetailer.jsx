@@ -21,8 +21,8 @@ function AuthorizedRetailer() {
         
         <div className="block absolute inset-0 z-[-1] h-full lg:hidden w-full">          
           <Image
-            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology 1.png"}
-            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology 1.png"}
+            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
+            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
             width={724}
             height={401}
             layout="fill" 
@@ -33,8 +33,8 @@ function AuthorizedRetailer() {
 
         <div className="hidden lg:block w-full">          
           <Image
-            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology 1.png"}
-            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology 1.png"}
+            src={"/beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
+            alt={"beautiful-young-woman-choosing-new-pair-spectacles-opticians-store-eyesight-correction-optics-ophthalmology1.png"}
             width={724}
             height={401}
             layout="responsive" 

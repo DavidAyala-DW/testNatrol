@@ -1,8 +1,8 @@
 import React from 'react';
-import Audience from "../public/rating 1.svg";
-import Advertiser from "../public/advertising 1.svg";
-import Theater from "../public/theatre 1.svg";
-import Canada from "../public/canada 1.svg";
+import Audience from "../public/rating1.svg";
+import Advertiser from "../public/advertising1.svg";
+import Theater from "../public/theatre1.svg";
+import Canada from "../public/canada1.svg";
 
 function Opportunity() {
 

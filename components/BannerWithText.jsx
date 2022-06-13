@@ -11,9 +11,9 @@ function BannerWithText() {
 
         <div className="block absolute inset-0 w-full h-full">
           <Image
-            src={"/rows-red-seats-theater 1.png"}    
+            src={"/rows-red-seats-theater1.png"}    
             layout={"fill"}
-            alt={"rows-red-seats-theater 1.png"}
+            alt={"rows-red-seats-theater1.png"}
             priority={true}
             quality={100}
             className="object-cover"
