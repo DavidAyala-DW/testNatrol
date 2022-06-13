@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
 
-        <link
+        {/* <link
           rel="preload"
           href="/Brooklyn-Bold.ttf"
           as="font"
@@ -67,7 +67,7 @@ export default function Document() {
           as="font"
           crossOrigin=""
           type="font/woff"
-        />
+        /> */}
 
       </Head>
       <body>
