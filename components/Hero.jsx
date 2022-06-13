@@ -25,7 +25,7 @@ function Hero() {
 
       <div className="flex flex-col">
 
-        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] max-w-[900px] mx-auto  z-20 pb-10">
+        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[600px] 3xl:max-w-[900px] mx-auto z-20 pb-10">
 
           <div className="block -translate-y-5">
             <Image
@@ -39,25 +39,27 @@ function Hero() {
             />
           </div>
 
-          <a
-            className="w-max mb-4 md:mb-[30px] mx-auto "
-            href=""
-          >
-            <Button
-              color={"primary"}
-              text={"JOIN THE PROMOTION"}
-              size={"small"}
-              type={"button"}
-            />
-          </a>
+          <div className="flex flex-col -translate-y-10">
+            <a
+              className="w-max mb-4 md:mb-[25px] mx-auto "
+              href=""
+            >
+              <Button
+                color={"primary"}
+                text={"JOIN THE PROMOTION"}
+                size={"small"}
+                type={"button"}
+              />
+            </a>
 
-          <h4 className="max-w-[220px] mb-2 md:mb-5 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
-            Exclusive Opportunity
-          </h4>
+            <h4 className="max-w-[220px] mb-2 md:mb-3 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
+              Exclusive Opportunity
+            </h4>
 
-          <div className="flex flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
-            <HeroArrow/>
-          </div>  
+            <div className="flex flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
+              <HeroArrow/>
+            </div>  
+          </div>
 
         </div>
 
