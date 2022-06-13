@@ -27,7 +27,7 @@ export default function Home() {
 
       <SunCollection/>
 
-      <a href="" className="mt-9 mb-12 max-w-max mx-auto">
+      <a href="" className="mt-9 select-none mb-12 max-w-max mx-auto">
         <Button
           color="primary"
           text="Join the promotion"
