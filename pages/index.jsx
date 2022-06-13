@@ -9,6 +9,7 @@ import HowItWorks from '../components/HowItWorks'
 import Introduction from '../components/Introduction'
 import Navbar from '../components/Navbar'
 import Opportunity from '../components/Opportunity'
+import SunCollection from '../components/SunCollection'
 import Button from '../components/UI/Button'
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
       <BannerWithText/>
 
       <Introduction/>
+
+      <SunCollection/>
 
       <a href="" className="mt-9 mb-12 max-w-max mx-auto">
         <Button
