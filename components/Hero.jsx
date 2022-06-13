@@ -2,6 +2,8 @@ import React from 'react'
 import Image from "next/image";
 import HeroArrow from "../public/hero_arrow.svg";
 import Button from './UI/Button';
+import HeroBanner from "../public/hero_banner.webp"
+import HeroMain from "../public/hero_main.webp";
 
 function Hero() {
   return (
@@ -11,7 +13,7 @@ function Hero() {
       <div className="absolute inset-0 w-full h-full z-[-1]">        
 
         <Image
-          src="/hero_banner.png"
+          src={HeroBanner}
           alt="alt"
           layout='fill'
           priority={true}
@@ -29,11 +31,9 @@ function Hero() {
 
           <div className="block -translate-y-5">
             <Image
-              src="/hero_main.png"
-              alt="alt"
+              src={HeroMain}
+              alt="hero_main.webp"
               layout='responsive'
-              width={900}
-              height={688}
               priority={true}
               quality={100}
             />

@@ -14,7 +14,6 @@ function BannerWithText() {
             src={"/rows-red-seats-theater1.png"}    
             layout={"fill"}
             alt={"rows-red-seats-theater1.png"}
-            priority={true}
             quality={100}
             className="object-cover"
           />
