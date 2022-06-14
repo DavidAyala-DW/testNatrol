@@ -3,6 +3,7 @@ import Image from 'next/image'
 import AuthorizedRetailer from '../components/AuthorizedRetailer'
 import BannerWithText from '../components/BannerWithText'
 import ContactUs from '../components/ContactUs'
+import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import HowItWorks from '../components/HowItWorks'
@@ -54,7 +55,16 @@ export default function Home() {
 
       <AuthorizedRetailer/>
 
-      {/* <ContactUs/> */}
+      <FAQ/>
+
+      <a href="" className="mt-[45px] mb-20 max-w-max mx-auto">
+        <Button
+          color="primary"
+          text="Join the promotion"
+          size="large"
+          type="button"
+        />
+      </a>
 
       <Footer/>
 
