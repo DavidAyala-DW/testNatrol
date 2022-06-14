@@ -60,7 +60,6 @@ const data = {
 }
 
 
-
 function FAQ() {
 
   function handleOpenQuestion(e){
@@ -96,8 +95,8 @@ function FAQ() {
 
     <section className="px-6 lg:px-0 lg:max-w-[80%] mx-auto py-20 bg-white flex flex-col w-full">
 
-      <h2 className="text-primary uppercase text-center mb-6 text-2xl lg:text-[32px] leading-7 tracking-[.145em] font-black">
-        FAQS
+      <h2 className="text-primary text-center mb-6 text-2xl lg:text-[32px] leading-7 tracking-[.145em] font-black">
+        FAQs
       </h2>
 
       <div className="flex flex-col space-y-[26px] lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-[22px] w-full">

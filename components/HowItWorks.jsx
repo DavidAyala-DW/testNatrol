@@ -19,7 +19,8 @@ function HowItWorks() {
 
       <div className="flex flex-col lg:grid lg:grid-cols-[46.4%_53.6%] relative">
         
-        <div className="w-full  rounded-[12px]">          
+        <div className="w-full  rounded-[12px]"> 
+
           <Image
             src={Couple}
             alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.webp"}
@@ -29,6 +30,7 @@ function HowItWorks() {
             quality={100}
             className="rounded-[10px] object-cover"
           />
+
         </div>
 
         <Swiper
@@ -39,14 +41,14 @@ function HowItWorks() {
             prevEl: ".swiper-prev-hiw",
             nextEl: ".swiper-next-hiw"
           }}
-          className="!-mt-20 !w-[calc(100%-20px)] lg:mx-0 lg:!w-[calc(100%+64px)] lg:-mt-0 mx-auto lg:!ml-[-64px] !z-20 rounded-[12px] max-h-max lg:!my-auto shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]"
+          className="!-mt-20 bg-white backdrop-blur-[8px] bg-opacity-80 lg:backdrop-blur-[24px] !w-[calc(100%-20px)] lg:mx-0 lg:!w-[calc(100%+64px)] lg:-mt-0 mx-auto lg:!ml-[-64px] !z-20 rounded-[12px] max-h-max lg:!my-auto shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]"
         >
 
-          <SwiperSlide className="!max-w-[100%] flex flex-col rounded-[12px] shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]">
+          <SwiperSlide className="!max-w-[100%] flex flex-col rounded-[12px]">
 
-            <div className="bg-white z-20 backdrop-blur-[8px] lg:backdrop-blur-[24px] max-h-max lg:!my-auto flex flex-col bg-opacity-80 shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)] pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
+            <div className="z-20 lg:max-w-[709px] max-h-max lg:!my-auto flex flex-col  pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
 
-              <div className="space-y-[44px] flex flex-col">
+              <div className="space-y-[44px] flex flex-col mb-[117px] lg:mb-[69px]">
 
                 <div className="flex flex-start space-x-[18px]">
 
@@ -86,25 +88,23 @@ function HowItWorks() {
 
               </div>
 
-              <div className="flex mt-8 w-full items-center justify-between lg:justify-end space-x-[30px]">
-
-                <div className="bg-white swiper-prev-hiw cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-                  <LeftArrow/>
-                </div>
-
-                <div className="bg-white swiper-next-hiw cursor-pointer pl-[8.5px] pr-[10.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-                  <RightArrow/>
-                </div>
-
-
-              </div>
-
             </div>
           </SwiperSlide>
 
 
         </Swiper>
 
+        <div className="flex absolute px-8 lg:px-0 bottom-[40px] lg:bottom-[48px] lg:right-[32px] z-40 w-full items-center justify-between lg:justify-end space-x-[30px]">
+
+          <div className="bg-white swiper-prev-hiw cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+            <LeftArrow/>
+          </div>
+
+          <div className="bg-white swiper-next-hiw cursor-pointer pl-[8.5px] pr-[10.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+            <RightArrow/>
+          </div>
+
+        </div>
 
       </div>
 

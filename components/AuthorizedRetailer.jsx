@@ -44,12 +44,12 @@ function AuthorizedRetailer() {
             prevEl: ".swiper-prev-authorized",
             nextEl: ".swiper-next-authorized"
           }}
-          className="!-mt-20 !w-[calc(100%-20px)] lg:mx-0 lg:!w-[calc(137%)] lg:-mt-0 mx-auto lg:!ml-[-37%] !z-20 rounded-[12px] max-h-max lg:!my-auto shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]"
+          className="!-mt-20 bg-white !w-[calc(100%-20px)] bg-opacity-80 backdrop-blur-[8px]  lg:backdrop-blur-[24px] lg:mx-0 lg:!w-[calc(137%)] lg:-mt-0 mx-auto lg:!ml-[-37%] !z-20 rounded-[12px] max-h-max lg:!my-auto shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]"
         >
 
-          <SwiperSlide className="!max-w-[100%] flex flex-col rounded-[12px] shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]">
+          <SwiperSlide className="!max-w-[100%] flex flex-col rounded-[12px]">
 
-            <div className="bg-white z-20 lg:max-w-[684px] rounded-[12px] backdrop-blur-[8px]  lg:backdrop-blur-[24px] max-h-max flex flex-col bg-opacity-80 shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)] pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
+            <div className=" z-20 lg:max-w-[684px]  max-h-max flex flex-col pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
 
               <div className="space-y-[33px] flex flex-col">
 
@@ -103,23 +103,23 @@ function AuthorizedRetailer() {
 
               </div>
 
-              <div className="flex mt-2 w-full items-center justify-between lg:justify-end space-x-[30px]">
-
-                <div className="bg-white swiper-prev-authorized cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-                  <LeftArrow/>
-                </div>
-
-                <div className="bg-white swiper-next-authorized cursor-pointer pl-[8.5px] pr-[10.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-                  <RightArrow/>
-                </div>
-
-
-              </div>
-
             </div>
           </SwiperSlide>
 
         </Swiper>
+
+        <div className="flex !hidden bottom-[-3rem] px-8  lg:px-0 lg:bottom-auto absolute  z-40 lg:-top-[50px] mt-2 w-full items-center justify-between lg:justify-end space-x-[30px]">
+
+          <div className="bg-white swiper-prev-authorized cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+            <LeftArrow/>
+          </div>
+
+          <div className="bg-white swiper-next-authorized cursor-pointer pl-[8.5px] pr-[10.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+            <RightArrow/>
+          </div>
+
+
+        </div>
 
       </div>
 
