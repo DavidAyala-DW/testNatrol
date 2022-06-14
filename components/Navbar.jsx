@@ -13,8 +13,19 @@ function Navbar() {
       <nav className="flex items-center flex-col
        1.5xl:flex-row space-y-5 1.5xl:space-y-0 w-full xs:w-max md:w-full justify-center 1.5xl:justify-between">
 
-        <div className="max-w-[361px] w-full">
-          <Menu/>
+        <div className="max-w-[361px] w-full">          
+
+          <div className="w-full relative cursor-pointer">
+
+            <Menu/> 
+
+            <div className="absolute inset-0 h-full grid grid-cols-[57.3%_43.7%] z-10">
+              <a href="https://ereditaeyewear.com/" className="h-full block z-10"></a>
+              <a href="https://www.cineplex.com/" className="h-full block z-10 "></a>
+            </div>
+
+          </div>
+          
         </div>
         
 

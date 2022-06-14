@@ -66,7 +66,17 @@ function Footer() {
         </div>
 
         <div className="mt-[60px] mb-5 sm:mb-0 flex sm:justify-end">
-          <BrandsFooter className="max-w-[80%] sm:max-w-[363px]"/>
+          <div className="max-w-[80%] cursor-pointer sm:max-w-[363px] relative">
+
+            <BrandsFooter/>
+
+            <div className="absolute grid grid-cols-[57.3%_43.7%] inset-0 w-full h-full">
+              <a className="w-full h-full block" href="https://ereditaeyewear.com/"></a>
+              <a className="w-full h-full block" href="https://www.cineplex.com/"></a>
+            </div>
+
+          </div>
+          
         </div>
 
         <div className="w-full flex flex-col space-y-5 md:space-y-0 sm:flex-row sm:items-center sm:space-x-2.5">

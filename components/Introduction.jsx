@@ -13,19 +13,19 @@ function Introduction() {
         Introducing
       </h2>
 
-      <div className="flex items-start md:items-center lg:items-start space-y-24 md:space-y-0 flex-col  md:flex-row w-full lg:pl-[72px] lg:pr-5">
+      <h3 className="text-lg md:pl-[15px] lg:pl-[85px] leading-[22px] text-center md:text-start font-bold uppercase mb-5 tracking-[.145em]">
+        police lifestyle
+      </h3>
 
-        <div className="pl-3 pr-[11px] lg:max-w-max mx-auto lg:mx-0 w-full flex flex-col items-center lg:items-start">
+      <div className="flex items-start md:items-center lg:items-start space-y-24 md:space-y-0 flex-col  md:flex-row w-full lg:pl-[72px] lg:pr-[90px]">
 
-          <h3 className="text-lg leading-[22px] text-center lg:text-start font-bold uppercase mb-5 tracking-[.145em]">
-            police lifestyle
-          </h3>
+        <div className="pl-3 pr-[11px] lg:max-w-max mx-auto lg:mx-0 w-full flex flex-col items-center md:items-start">
 
-          <h3 className=" text-[40px] md:text-[50px] lg:text-[60px] text-primary font-starduster leading-[55px] tracking-[-.1em] uppercase mb-5">
+          <h3 className=" text-[40px] md:-ml-[15px] md:text-[50px] lg:text-[60px] text-primary font-starduster leading-[55px] tracking-[-.1em] uppercase mb-5">
             vple037
           </h3>
 
-          <p className="text-base lg:text-lg leading-[22px]  lg:max-w-[376px] mb-8">
+          <p className="text-base text-center md:text-left lg:text-lg leading-[22px]  lg:max-w-[380px] mb-8">
             Aside from being featured and worn by top A-Listers in the upcoming hit “Bullet Train”, these frames come in a wide variety of 6 sun and 6 ophthalmic SKU’s, offering huge sales opportunities for optical shops looking for more growth & exposure in the market, all done for you!
           </p>
 
@@ -43,7 +43,7 @@ function Introduction() {
 
         </div>
 
-        <div className="flex flex-col w-full h-full relative">
+        <div className="flex flex-col w-full h-full relative max-w-[616px] ml-auto">
 
           <Image
             src={Glass}
@@ -63,7 +63,7 @@ function Introduction() {
             />
           </div>
 
-          <div className="absolute -top-8 left-[60%] rounded-full flex flex-col items-center justify-center bg-[#FFCB05] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[47.5%] lg:max-w-[22.7%]">
+          <div className="absolute -top-[16.5%] z-[-1] left-[57%] rounded-full flex flex-col items-center justify-center bg-[#FFCB05] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[56.7%] lg:max-w-[27.9%]">
 
             <p className="font-bold text-[10px] xl:text-base leading-[19px] tracking-[.145em] text-center uppercase">Featured in</p>
 
