@@ -1,9 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
+import {Navigation} from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+
 import Glass from "../public/glass.svg";
 import RightArrow from "../public/right.svg";
 import LeftArrow from "../public/left.svg";
 import Couple from "../public/cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.webp";
+
 
 function HowItWorks() {
   return (
@@ -14,17 +19,7 @@ function HowItWorks() {
 
       <div className="flex flex-col lg:grid lg:grid-cols-[46.4%_53.6%] relative">
         
-        <div className="absolute inset-0 w-full overflow-hidden z-[-1] h-full lg:hidden rounded-[12px]">                  
-          <Image
-            src={Couple}
-            alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.webp"}
-            layout="fill" 
-            quality={100}
-            className="rounded-[10px] object-cover"
-          />
-        </div>
-
-        <div className="w-full hidden lg:block rounded-[12px]">          
+        <div className="w-full  rounded-[12px]">          
           <Image
             src={Couple}
             alt={"cinema-day-young-couple-with-popcorn-watching-interesting-movie-their-date-cinema1.webp"}
@@ -36,62 +31,80 @@ function HowItWorks() {
           />
         </div>
 
-        <div className="bg-white lg:ml-[-64px] z-20 rounded-[12px] backdrop-blur-[8px] lg:backdrop-blur-[24px] max-h-max my-auto flex flex-col bg-opacity-90 lg:bg-opacity-80 shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)] pl-[30px] pr-[25px] pt-10 pb-7 ">
+        <Swiper
+          modules={[Navigation]}
+          slidesPerView={1}
+          loop={true}
+          navigation={{
+            prevEl: ".swiper-prev-hiw",
+            nextEl: ".swiper-next-hiw"
+          }}
+          className="!-mt-20 !w-[calc(100%-20px)] lg:mx-0 lg:!w-[calc(100%+64px)] lg:-mt-0 mx-auto lg:!ml-[-64px] !z-20 rounded-[12px] max-h-max lg:!my-auto shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]"
+        >
 
-          <div className="space-y-[44px] flex flex-col">
+          <SwiperSlide className="!max-w-[100%] flex flex-col rounded-[12px] shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)]">
 
-            <div className="flex flex-start space-x-[18px]">
+            <div className="bg-white z-20 backdrop-blur-[8px] lg:backdrop-blur-[24px] max-h-max lg:!my-auto flex flex-col bg-opacity-80 shadow-[0px_2px_6px_rgba(151, 172, 198,_0.25)] pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
 
-              <div className="max-w-[46px]">
-                <Glass/>
+              <div className="space-y-[44px] flex flex-col">
+
+                <div className="flex flex-start space-x-[18px]">
+
+                  <div className="w-[46px]">
+                    <Glass/>
+                  </div>
+
+                  <p className="text-sm w-full md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
+                    A captive audience of theatregoers will be presented with a 30 second ad immediately prior to the start of the movie and post movie credits.
+                  </p>
+                  
+                </div>
+
+                <div className="flex flex-start space-x-[18px]">
+
+                  <div className="w-[46px]">
+                    <Glass/>
+                  </div>
+
+                  <p className="text-sm w-full md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
+                    Our 30 second dynamic Ad features the specific frame used in the movie, along with details on the Bullet Train collection.  The Ad is accompanied by a QR code that, when scanned, directs audience members to our dedicated Bullet Train + Police Eyewear landing page. 
+                  </p>
+                  
+                </div>
+
+                <div className="flex flex-start space-x-[18px]">
+
+                  <div className="w-[46px]">
+                    <Glass/>
+                  </div>
+
+                  <p className="text-sm w-full md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
+                    Landing page includes details on the frame, styles and Police eyewear background, and a call to action to purchase the frames in-store.
+                  </p>
+                  
+                </div>
+
               </div>
 
-              <p className="text-sm md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
-                A captive audience of theatregoers will be presented with a 30 second ad immediately prior to the start of the movie and post movie credits.
-              </p>
-              
-            </div>
+              <div className="flex mt-8 w-full items-center justify-between lg:justify-end space-x-[30px]">
 
-            <div className="flex flex-start space-x-[18px]">
+                <div className="bg-white swiper-prev-hiw cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+                  <LeftArrow/>
+                </div>
 
-              <div className="max-w-[46px]">
-                <Glass/>
+                <div className="bg-white swiper-next-hiw cursor-pointer pl-[8.5px] pr-[10.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+                  <RightArrow/>
+                </div>
+
+
               </div>
 
-              <p className="text-sm md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
-                Our 30 second dynamic Ad features the specific frame used in the movie, along with details on the Bullet Train collection.  The Ad is accompanied by a QR code that, when scanned, directs audience members to our dedicated Bullet Train + Police Eyewear landing page. 
-              </p>
-              
             </div>
-
-            <div className="flex flex-start space-x-[18px]">
-
-              <div className="max-w-[46px]">
-                <Glass/>
-              </div>
-
-              <p className="text-sm md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
-                Landing page includes details on the frame, styles and Police eyewear background, and a call to action to purchase the frames in-store.
-              </p>
-              
-            </div>
-
-          </div>
-
-          <div className="flex mt-8 w-full items-center justify-end space-x-[30px]">
-
-            <div className="bg-white cursor-pointer py-2 pl-[9px] pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-              <LeftArrow/>
-            </div>
-
-            <div className="bg-white cursor-pointer py-2 pl-[6px] pr-[7.6px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
-              <RightArrow/>
-            </div>
+          </SwiperSlide>
 
 
-          </div>
+        </Swiper>
 
-        </div>
 
       </div>
 

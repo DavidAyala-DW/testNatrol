@@ -18,16 +18,16 @@ function Hero() {
           layout='fill'
           priority={true}
           quality={100}
-          className="object-cover"
+          className="object-cover object-[68%] lg:object-center"
         />
 
       </div>
 
       <div className="absolute inset-0 w-full h-full bg-hero z-0"></div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col pt-[210px] pb-[53px] lg:py-0">
 
-        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[600px] 3xl:max-w-[900px] mx-auto z-20 pb-10">
+        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[600px] 3xl:max-w-[900px] mx-auto z-20 lg:pb-10">
 
           <div className="block lg:-translate-y-5">
             <Image

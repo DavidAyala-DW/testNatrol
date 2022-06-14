@@ -9,6 +9,7 @@ import HowItWorks from '../components/HowItWorks'
 import Introduction from '../components/Introduction'
 import Navbar from '../components/Navbar'
 import Opportunity from '../components/Opportunity'
+import Opthalmic from '../components/Opthalmic'
 import SunCollection from '../components/SunCollection'
 import Button from '../components/UI/Button'
 
@@ -26,6 +27,8 @@ export default function Home() {
       <Introduction/>
 
       <SunCollection/>
+
+      <Opthalmic/>
 
       <a href="" className="mt-9 select-none mb-12 max-w-max mx-auto">
         <Button
@@ -51,7 +54,7 @@ export default function Home() {
 
       <AuthorizedRetailer/>
 
-      <ContactUs/>
+      {/* <ContactUs/> */}
 
       <Footer/>
 

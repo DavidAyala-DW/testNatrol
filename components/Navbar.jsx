@@ -2,16 +2,18 @@ import React from 'react';
 import Eredita_logo from "../public/eredita_logo.svg";
 import Cineplex_logo from "../public/cineplex_logo.svg";
 import Button from './UI/Button';
+import Menu from "../public/menu.svg";
 
 function Navbar() {
 
   return (
 
-    <header className="w-full px-5 xl:px-20 1.5xl:pl-[100px] 1.5xl:pr-[172px] py-9  flex items-center justify-center 1.5xl:justify-between bg-primary">
+    <header className="w-full space-y-4 1.5xl:space-y-0 px-5 xl:px-20 1.5xl:space-x-6 1.5xl:pl-[100px] 1.5xl:pr-[172px] py-9  flex items-center flex-col 1.5xl:flex-row justify-center 1.5xl:justify-between bg-primary">
 
-      <nav className="flex items-center space-x-[60px] w-full xs:w-max">
+      <nav className="flex items-center flex-col
+       1.5xl:flex-row space-y-5 1.5xl:space-y-0 w-full xs:w-max md:w-full justify-center 1.5xl:justify-between">
 
-        <div className="flex items-center justify-between xs:justify-start xs:space-x-7">
+        {/* <div className="flex items-center justify-between xs:justify-start xs:space-x-7">
 
           <a target="_blank" href="/" className="block w-[40%] xs:w-[183px]">
             <Eredita_logo/>
@@ -23,18 +25,22 @@ function Navbar() {
             <Cineplex_logo/>
           </a>
 
+        </div> */}
+        <div className="max-w-[361px] w-full">
+          <Menu/>
         </div>
+        
 
-        <div className="hidden 1.5xl:flex items-center space-x-5">
+        <div className="flex items-center space-x-2">
 
-          <p className="text-white font-bold leading-9">Have Questions? Call us at</p>
+          <p className="text-white font-bold leading-9">Questions? Call us:</p>
           <span className="text-white font-semibold leading-9">1-855-793-EYES</span>
 
         </div>        
 
       </nav>
 
-      <a href="" className="hidden 1.5xl:block">
+      <a href="" className="block">
         <Button
           color={"white"}
           text={"Join the promotion"}

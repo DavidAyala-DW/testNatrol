@@ -10,16 +10,18 @@ function Opportunity() {
 
     <section className="px-5 md:px-0 md:max-w-[85%] mx-auto w-full flex flex-col">
 
-      <h2 className="text-primary text-center uppercase font-black text-[24px] sm:text-[32px] leading-[38px] tracking-[.145em] mb-10">
+      <h2 className="text-primary text-center uppercase font-black text-[24px] sm:text-[32px] leading-[38px] tracking-[.145em] mb-20">
         The opportunity in numbers
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-x-[30px] gap-y-[50px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-x-[30px] gap-y-[100px]">
 
         <div className="flex flex-col space-y-9 pb-8 items-center bg-white shadow-[0px_1.7571px_5.2713px_rgba(151,_172,_198,_0.25)]">
 
-          <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
-            <Audience/>
+          <div className="flex flex-col justify-center -mt-10 items-center border-[3px] border-dashed border-[#E9EAF0] h-[144px] w-[144px] rounded-full">
+            <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
+              <Audience/>
+            </div>
           </div>
 
           <div className="max-w-[251px] text-center leading-5 tracking-[.145em] uppercase font-semibold">
@@ -30,8 +32,10 @@ function Opportunity() {
 
         <div className="flex flex-col space-y-9 pb-8 items-center bg-white shadow-[0px_1.7571px_5.2713px_rgba(151,_172,_198,_0.25)]">
 
-          <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
-            <Advertiser/>
+          <div className="flex flex-col justify-center -mt-10 items-center border-[3px] border-dashed border-[#E9EAF0] h-[144px] w-[144px] rounded-full">
+            <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
+              <Advertiser/>
+            </div>
           </div>
 
           <div className="max-w-[251px] text-center leading-5 tracking-[.145em] uppercase font-semibold">
@@ -42,9 +46,12 @@ function Opportunity() {
 
         <div className="flex flex-col space-y-9 pb-8 items-center bg-white shadow-[0px_1.7571px_5.2713px_rgba(151,_172,_198,_0.25)]">
 
-          <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
-            <Theater/>
+          <div className="flex flex-col justify-center -mt-10 items-center border-[3px] border-dashed border-[#E9EAF0] h-[144px] w-[144px] rounded-full">
+            <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
+              <Theater/>                
+            </div>
           </div>
+
 
           <div className="max-w-[251px] text-center leading-5 tracking-[.145em] uppercase font-semibold">
             700 Bullet Train screenings PER DAY Canada-wide
@@ -53,9 +60,11 @@ function Opportunity() {
         </div>
 
         <div className="flex flex-col space-y-9 pb-8 items-center bg-white shadow-[0px_1.7571px_5.2713px_rgba(151,_172,_198,_0.25)]">
-
-          <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
-            <Canada/>
+          
+          <div className="flex flex-col justify-center -mt-10 items-center border-[3px] border-dashed border-[#E9EAF0] h-[144px] w-[144px] rounded-full">
+            <div className="flex flex-col transform items-center justify-center bg-primary h-[126px] w-[126px] rounded-full">
+              <Canada/>
+            </div>
           </div>
 
           <div className="max-w-[251px] text-center leading-5 tracking-[.145em] uppercase font-semibold">

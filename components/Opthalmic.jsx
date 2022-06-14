@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
-import Men from "../public/portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp";
+import Women from "../public/beautiful-girl-glasses-stands-by-window-office-her-hands-with-phone-typing-text-2.webp";
 
 import Sun1 from "../public/sun1.png";
 import Sun2 from "../public/sun2.png";
@@ -83,7 +83,7 @@ const products = [
 ]
 
 
-function SunCollection() {
+function Opthalmic() {
   
 
   const [activeProduct, setActiveProduct] = useState(products[0]);
@@ -98,7 +98,7 @@ function SunCollection() {
     <section className="px-5 select-none md:px-0 md:max-w-[85%] mx-auto lg:pr-8 w-full flex flex-col mb-[70px] mt-[54px]">
 
       <h2 className="uppercase text-left text-2xl font-starduster italic leading-[23px] tracking-[.145em] text-primary mb-[35px]">
-        sun
+        opthalmic
       </h2>
 
       <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-[60px] relative">
@@ -106,7 +106,7 @@ function SunCollection() {
         <div className="w-full h-[calc(100vw/1.5)] md:h-auto block relative">
 
           <Image
-            src={Men}
+            src={Women}
             layout="fill"
             alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
           />
@@ -144,8 +144,8 @@ function SunCollection() {
             slidesPerView={1}
             loop={true}
             navigation={{
-              prevEl: ".swiper-prev",
-              nextEl: ".swiper-next"
+              prevEl: ".swiper-prev-2",
+              nextEl: ".swiper-next-2"
             }}
             className="block lg:grid w-full h-full"
           >
@@ -216,11 +216,11 @@ function SunCollection() {
 
         <div className="flex max-w-max w-full items-center absolute -bottom-12 md:bottom-auto md:-top-12 right-0 space-x-[30px]">
 
-          <div className="bg-white swiper-prev cursor-pointer py-2 pl-[9px] pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+          <div className="bg-white swiper-prev-2 cursor-pointer py-2 pl-[9px] pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
             <LeftArrow/>
           </div>
 
-          <div className="bg-white swiper-next cursor-pointer py-2 pl-[6px] pr-[7.6px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
+          <div className="bg-white swiper-next-2 cursor-pointer py-2 pl-[6px] pr-[7.6px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
             <RightArrow/>
           </div>
 
@@ -233,4 +233,4 @@ function SunCollection() {
   )
 }
 
-export default SunCollection
+export default Opthalmic
