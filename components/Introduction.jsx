@@ -63,7 +63,7 @@ function Introduction() {
             />
           </div>
 
-          <div className="absolute -top-8 left-[32%] rounded-full flex flex-col items-center justify-center bg-[#FFCB05] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[47.5%] lg:max-w-[22.7%]">
+          <div className="absolute -top-8 left-[60%] rounded-full flex flex-col items-center justify-center bg-[#FFCB05] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[47.5%] lg:max-w-[22.7%]">
 
             <p className="font-bold text-[10px] xl:text-base leading-[19px] tracking-[.145em] text-center uppercase">Featured in</p>
 
