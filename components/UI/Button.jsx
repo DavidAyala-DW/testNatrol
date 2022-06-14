@@ -9,7 +9,7 @@ function Button({color,text,size,type,className}) {
 
   const mode= {
     white: "border-white  text-white",
-    primary: "border-primary  text-primary"
+    primary: "text-primary bg-[#FFCB05] border-[#FFCB05]"
   }
   
   return (

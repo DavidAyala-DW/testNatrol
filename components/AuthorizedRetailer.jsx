@@ -19,7 +19,7 @@ function AuthorizedRetailer() {
       </h2>
 
       <p className="mb-10 text-center mx-auto max-w-[594px] text-lg leading-[22px] tracking-[.145em]">
-        Open our Police Eyewear collection with a pre-selected 24 pc order
+        Open our Police Eyewear collection with a pre-selected 24 pc order -CAD 3075
       </p>
 
       <div className="flex flex-col lg:grid lg:grid-cols-[59.15%_41.85%] relative">
@@ -51,7 +51,7 @@ function AuthorizedRetailer() {
 
             <div className=" z-20 lg:max-w-[684px]  max-h-max flex flex-col pl-[21px] pr-[13px] lg:pl-[30px] lg:pr-[25px] pt-10 pb-7 ">
 
-              <div className="space-y-[33px] flex flex-col">
+              <div className="space-y-[33px] flex flex-col mb-[117px] lg:mb-[69px]">
 
                 <div className="flex flex-start space-x-[18px]">
 
@@ -60,7 +60,7 @@ function AuthorizedRetailer() {
                   </div>
 
                   <p className="text-sm md:text-base lg:text-lg !leading-[22px] tracking-[.145em]">
-                    12 pcs “Bullet Train” Opthalmic + Sun selection (multiple colours, 1 frame complimentary)
+                    12 pcs “Bullet Train” Ophthalmic + Sun selection (multiple colours, 1 frame complimentary)
                   </p>
                   
                 </div>
@@ -108,7 +108,7 @@ function AuthorizedRetailer() {
 
         </Swiper>
 
-        <div className="flex !hidden bottom-[-3rem] px-8  lg:px-0 lg:bottom-auto absolute  z-40 lg:-top-[50px] mt-2 w-full items-center justify-between lg:justify-end space-x-[30px]">
+        <div className="flex px-8 lg:px-0 bottom-[40px] lg:bottom-[26px] 1.7xl:bottom-[55px] absolute  z-40 w-full items-center justify-between lg:justify-end space-x-[30px]">
 
           <div className="bg-white swiper-prev-authorized cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
             <LeftArrow/>

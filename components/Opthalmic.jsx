@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
-import Women from "../public/beautiful-girl-glasses-stands-by-window-office-her-hands-with-phone-typing-text-2.webp";
+import Women from "../public/VPLE37_Ophthalmic-Thumbnail.webp";
 
 import Sun1 from "../public/sun1.png";
 import Sun2 from "../public/sun2.png";
@@ -98,7 +98,7 @@ function Opthalmic() {
     <section className="px-5 select-none md:px-0 md:max-w-[85%] mx-auto lg:pr-8 w-full flex flex-col mb-[70px] mt-[54px]">
 
       <h2 className="uppercase text-left text-2xl font-starduster italic leading-[23px] tracking-[.145em] text-primary mb-[35px]">
-        opthalmic
+        ophthalmic
       </h2>
 
       <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-[60px] relative">
@@ -112,8 +112,8 @@ function Opthalmic() {
           />
 
           <div className="
-          bg-white shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]  md:py-0 space-x-10  justify-center lg:rounded-[10px] bottom-0 inset-x-0 md:justify-center md:bottom-0 lg:bottom-[20px] lg:left-[50px] xl:left-[125px] absolute md:max-w-full lg:max-w-[80%]
-            xl:max-w-[60%] md:max-h-[129px] overflow-y-hidden h-max w-full flex md:space-x-2.5 overflow-hidden lg:pt-[30px] lg:pb-[30px]"
+          bg-white lg:px-5 shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]  md:py-0 space-x-10  justify-center lg:rounded-[10px] bottom-0 inset-x-0 md:justify-center md:bottom-0 lg:bottom-[20px] lg:left-[50px] xl:left-[85px] absolute md:max-w-full lg:max-w-[80%]
+            xl:max-w-[75%] md:max-h-[129px] overflow-y-hidden h-max w-full flex md:space-x-2.5 overflow-hidden lg:pt-[30px] lg:pb-[30px]"
           >
 
             <div className="block relative w-full max-w-[20%] transform lg:-translate-y-[30%] xl:-translate-y-[32.5%] md:max-w-[25%] lg:max-w-[50%] xl:max-w-[180px] md:h-full">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import HeroArrow from "../public/hero_arrow.svg";
 import Button from './UI/Button';
 import HeroBanner from "../public/hero_banner.webp"
-import HeroMain from "../public/hero_main.webp";
+import HeroMain from "../public/Eredità-Cineplex_Hero-Header.webp";
 
 function Hero() {
   return (
@@ -39,21 +39,22 @@ function Hero() {
             />
           </div>
 
-          <div className="flex flex-col lg:-translate-y-10">
-            <a
+          <div className="flex flex-col">
+
+            {/* <a
               className="w-max mb-4 md:mb-[25px] mx-auto "
               href=""
             >
               <Button
                 color={"primary"}
-                text={"JOIN THE PROMOTION"}
+                text={"Apply To Participate"}
                 size={"small"}
                 type={"button"}
               />
-            </a>
+            </a> */}
 
             <h4 className="max-w-[220px] mb-2 md:mb-3 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
-              Exclusive Opportunity
+              Join the promotion
             </h4>
 
             <div className="flex flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">

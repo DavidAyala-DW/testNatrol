@@ -34,7 +34,7 @@ export default function Home() {
       <a href="" className="mt-9 select-none mb-12 max-w-max mx-auto">
         <Button
           color="primary"
-          text="Join the promotion"
+          text="Apply To Participate"
           size="large"
           type="button"
         />
@@ -47,7 +47,7 @@ export default function Home() {
       <a href="" className="mt-9 mb-[68px] max-w-max mx-auto">
         <Button
           color="primary"
-          text="Join the promotion"
+          text="Apply To Participate"
           size="large"
           type="button"
         />
@@ -55,12 +55,14 @@ export default function Home() {
 
       <AuthorizedRetailer/>
 
+      <ContactUs/>
+
       <FAQ/>
 
       <a href="" className="mt-[45px] mb-20 max-w-max mx-auto">
         <Button
           color="primary"
-          text="Join the promotion"
+          text="Apply To Participate"
           size="large"
           type="button"
         />

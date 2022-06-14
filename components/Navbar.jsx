@@ -13,19 +13,6 @@ function Navbar() {
       <nav className="flex items-center flex-col
        1.5xl:flex-row space-y-5 1.5xl:space-y-0 w-full xs:w-max md:w-full justify-center 1.5xl:justify-between">
 
-        {/* <div className="flex items-center justify-between xs:justify-start xs:space-x-7">
-
-          <a target="_blank" href="/" className="block w-[40%] xs:w-[183px]">
-            <Eredita_logo/>
-          </a>
-
-          <div className="block w-1 h-10 bg-white"></div>
-
-          <a target="_blank" href="/" className="block w-[40%] xs:w-[127px]">
-            <Cineplex_logo/>
-          </a>
-
-        </div> */}
         <div className="max-w-[361px] w-full">
           <Menu/>
         </div>
@@ -42,8 +29,8 @@ function Navbar() {
 
       <a href="" className="block">
         <Button
-          color={"white"}
-          text={"Join the promotion"}
+          color={"primary"}
+          text={"Apply To Participate"}
           size={"small"}
           type={"button"}
         />

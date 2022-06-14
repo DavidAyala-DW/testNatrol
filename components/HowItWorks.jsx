@@ -94,7 +94,7 @@ function HowItWorks() {
 
         </Swiper>
 
-        <div className="flex absolute px-8 lg:px-0 bottom-[40px] lg:bottom-[48px] lg:right-[32px] z-40 w-full items-center justify-between lg:justify-end space-x-[30px]">
+        <div className="flex absolute px-8 lg:px-0 bottom-[40px] lg:bottom-[26px] 1.7xl:bottom-[55px] lg:right-[32px] z-40 w-full items-center justify-between lg:justify-end space-x-[30px]">
 
           <div className="bg-white swiper-prev-hiw cursor-pointer pl-[12.5px] pr-[6.5px] py-[12px] lg:py-2 lg:pl-[9px] lg:pr-[4.5px] shadow-[0px_0px_35px_-1.42857px_rgba(0,_0,_0,_0.19)]">
             <LeftArrow/>

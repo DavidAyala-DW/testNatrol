@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import Button from './UI/Button'
-import Glass from "../public/590332_1644363131835_600x3001.webp"
+import Glass from "../public/VPLE371.webp"
 
 function Introduction() {
 
@@ -26,14 +26,14 @@ function Introduction() {
           </h3>
 
           <p className="text-base lg:text-lg leading-[22px]  lg:max-w-[376px] mb-8">
-            Aside from being featured and worn by top A-Listers in the upcoming hit “Bullet Train”, these frames come in a wide variety of 6 sun and 6 opthalmic SKU’s, offering huge sales opportunities for optical shops lookig for more growth & exposure in the market, all done for you!
+            Aside from being featured and worn by top A-Listers in the upcoming hit “Bullet Train”, these frames come in a wide variety of 6 sun and 6 ophthalmic SKU’s, offering huge sales opportunities for optical shops looking for more growth & exposure in the market, all done for you!
           </p>
 
           <a className="block w-max mx-auto md:mx-0" href="">
 
             <Button
               color="primary"
-              text="Join the promotion"
+              text="Apply To Participate"
               size="small"
               type="button"
               className="2xs:!text-[21px] md:!text-[13px]"
@@ -63,7 +63,7 @@ function Introduction() {
             />
           </div>
 
-          <div className="absolute -top-8 left-[32%] rounded-full flex flex-col items-center justify-center bg-[#E9EAF0] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[47.5%] lg:max-w-[22.7%]">
+          <div className="absolute -top-8 left-[32%] rounded-full flex flex-col items-center justify-center bg-[#FFCB05] shadow-[0px_2px_6px_#E0E3F8] h-full w-full max-h-[55.2%] max-w-[26.4%] lg:max-h-[47.5%] lg:max-w-[22.7%]">
 
             <p className="font-bold text-[10px] xl:text-base leading-[19px] tracking-[.145em] text-center uppercase">Featured in</p>
 

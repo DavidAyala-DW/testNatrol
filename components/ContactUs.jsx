@@ -1,79 +1,60 @@
 import Image from 'next/image'
 import React from 'react'
 import Button from './UI/Button'
+import Brands from "../public/brands_logos.svg"
+import ContactImage from "../public/US_20x30_brian-Bottom-CTA1.webp";
 
 function ContactUs() {
   return (
 
-    <section className="py-[45px] w-full px-[7.5%] bg-[#F7F7FB] flex flex-col">
+    <section className="py-[45px] px-[26px] w-full lg:px-[7.5%] bg-[#F7F7FB] flex flex-col">
 
       <h2 className="text-primary text-[32px] uppercase text-center leading-[38px] tracking-[.145em] mb-10 font-black">Contact us</h2>
 
-      <div className="grid grid-cols-1 md2:grid-cols-2 w-full">
+      <div className="grid grid-cols-1 md2:grid-cols-[48.4%_51.6%] w-full">
         
-        <div className="hidden md2:block">
+        <div className="">
 
           <Image
-            src="/contact.png"
+            src={ContactImage}
             alt="contact.png"
-            width={593}
-            height={576}
             quality={100}
             layout="responsive"
           />
           
         </div>
 
-        <form className="bg-white flex space-y-8 flex-col w-full pt-8 pb-4 px-[25px] rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]">
+        <div className="bg-white w-full h-max my-auto pt-5 lg:pt-[105px] pb-[25px]">
 
-          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Full_Name']
-            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
-            focus-within:after:text-contact_us focus-within:border-contact_us
-          ">
+          <div className="flex flex-col items-center lg:items-start lg:px-[75px] mb-[120px]">
 
-            <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
+            <h3 className="text-primary text-center uppercase text-[32px] font-black tracking-[.145em] leading-[38px] mb-10">
+              headline goes here
+            </h3>
 
-          </fieldset>
+            <p className="max-w-[471px] text-center lg:text-left w-full text-lg font-normal leading-[30px] text-[#6F6C90] mb-10">
+              Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor
+            </p>
 
-          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Contact_Number']
-            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
-            focus-within:after:text-contact_us focus-within:border-contact_us
-          ">
-            
-            <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
-
-          </fieldset>
-
-          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Email_Address']
-            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
-            focus-within:after:text-contact_us focus-within:border-contact_us
-          ">
-            
-            <input className="p-4 text-black outline-none w-full rounded-[4px]" type="text" />
-
-          </fieldset>
-
-          <fieldset className="fieldset border-2 border-[rgba(0,_0,_0,_0.38)] rounded-[4px] relative after:absolute after:-top-2 after:left-3 after:content-['Message']
-            after:text-sm after:leading-4 after:tracking-[.4px] after:w-max after:text-[rgba(0,_0,_0,_0.6)] after:bg-white after:px-2
-            focus-within:after:text-contact_us focus-within:border-contact_us
-          ">
-
-            <textarea className="p-4 resize-none text-black outline-none w-full rounded-[4px] min-h-[201px]" name="" ></textarea>
-            
-
-          </fieldset> 
-
-          <div className="max-w-max ml-auto">
             <Button
-              text="submit"
-              color="primary"
-              size="small"
-              className="min-w-[155px]"
-              type="submit"
+              text="Apply To Participate"
+              color={"primary"}
+              size="large"
+              type="button"
+              className="lg:min-w-[75.3%]"
             />
+
           </div>
 
-        </form>
+          <div className="max-w-[95%] lg:max-w-[calc(100%-80px)] mx-auto">
+            <Brands/>
+          </div>
+
+          
+
+
+
+        </div>
 
       </div>
 
