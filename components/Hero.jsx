@@ -17,7 +17,7 @@ function Hero() {
           alt="alt"
           layout='fill'
           priority={true}
-          quality={100}
+          quality={80}
           className="object-cover object-[68%] lg:object-center"
         />
 
