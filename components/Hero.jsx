@@ -6,6 +6,13 @@ import HeroBanner from "../public/hero_banner.webp"
 import HeroMain from "../public/Eredità-Cineplex_Hero-Header.webp";
 
 function Hero() {
+
+  function handleScrollDown(){
+    document.querySelector('#banner').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  }
+
   return (
 
     <div className="w-full relative h-max">
@@ -57,7 +64,7 @@ function Hero() {
               Join the promotion
             </h4>
 
-            <div className="flex flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
+            <div onClick={() => handleScrollDown()}  className="flexg cursor-pointer flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
               <HeroArrow/>
             </div>  
           </div>

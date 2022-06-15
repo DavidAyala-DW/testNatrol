@@ -6,7 +6,7 @@ function BannerWithText() {
 
   return (
 
-    <section className="pt-2.5 md:pt-10 w-full sm:px-[25px] md:px-[50px]  lg:px-[60px] xl:px-[84px]">
+    <section className="pt-2.5 md:pt-10 w-full sm:px-[25px] md:px-[50px]  lg:px-[60px] xl:px-[84px]" id="banner">
 
       <div className="relative w-full">
 

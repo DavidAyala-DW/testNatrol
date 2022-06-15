@@ -5,7 +5,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
-import Women from "../public/VPLE37_Ophthalmic-Thumbnail.webp";
+import Men from "../public/Sun-full.webp";
+import MenDesktop from "../public/SUN.webp";
+
+import Women from "../public/Optical-full.webp";
+import WomenDesktop from "../public/Optical.webp"
 
 import Sun1 from "../public/sun1.png";
 import Sun2 from "../public/sun2.png";
@@ -21,64 +25,88 @@ const products = [
 
   {
     url: Sun1,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 1",
+    price: 700.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
   },
   {
     url: Sun2,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 2",
+    price: 710.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun3,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 3",
+    price: 720.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
   },
   {
     url: Sun4,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 4",
+    price: 730.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun5,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 5",
+    price: 740.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
   },
   {
     url: Sun6,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 6",
+    price: 750.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun6,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 6",
+    price: 750.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun5,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 5",
+    price: 740.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
   },
   {
     url: Sun4,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 4",
+    price: 730.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun3,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 3",
+    price: 720.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
   },
   {
     url: Sun2,
-    title:"Vivamus Sit Smet",
-    price: 780.00
+    title:"Vivamus Sit Smet 2",
+    price: 710.00,
+    desktop_image: MenDesktop,
+    mobile_image: Men
   },
   {
     url: Sun1,
-    title:"Vivamus Sit Smet",
-    price: 780.00
-  }
+    title:"Vivamus Sit Smet 1",
+    price: 700.00,
+    desktop_image: WomenDesktop ,
+    mobile_image: Women 
+  },
 
 ]
 
@@ -103,20 +131,36 @@ function Opthalmic() {
 
       <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-[60px] relative">
 
-        <div className="w-full h-[calc(100vw/1.5)] md:h-auto block relative">
+        <div className="w-full h-[calc(100vw)] md:h-auto block relative border border-black">
 
-          <Image
-            src={Women}
-            layout="fill"
-            alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
-          />
+          <div className="block lg:hidden">
+            <Image
+              src={activeProduct.mobile_image}
+              layout="fill"
+              className="object-center oject-cover"
+              alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
+            />
+          </div>
+
+          <div className="hidden lg:block max-w-[calc(77%)] h-full relative">
+            <Image
+              src={activeProduct.desktop_image}
+              layout="fill"
+              className="object-center oject-cover"
+              alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
+            />
+          </div>
 
           <div className="
-          bg-white lg:px-5 shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]  md:py-0 space-x-10  justify-center lg:rounded-[10px] bottom-0 inset-x-0 md:justify-center md:bottom-0 lg:bottom-[20px] lg:left-[50px] xl:left-[85px] absolute md:max-w-full lg:max-w-[80%]
-            xl:max-w-[75%] md:max-h-[129px] overflow-y-hidden h-max w-full flex md:space-x-2.5 overflow-hidden lg:pt-[30px] lg:pb-[30px]"
+          bg-white lg:px-5  md:py-0 space-x-10  justify-center lg:rounded-[10px] bottom-0 inset-x-0
+            md:justify-center md:bottom-0 absolute md:max-w-full lg:max-w-[35.4%]
+            md:max-h-[129px] lg:h-full lg:max-h-[230px] overflow-y-hidden h-max w-full flex md:space-x-2.5 overflow-hidden
+            lg:flex-col lg:items-center lg:py-0 lg:shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]
+            lg:top-[20%] lg:right-6 lg:left-auto
+            "
           >
 
-            <div className="block relative w-full max-w-[20%] transform lg:-translate-y-[30%] xl:-translate-y-[32.5%] md:max-w-[25%] lg:max-w-[50%] xl:max-w-[180px] md:h-full">
+            <div className="block relative w-full max-w-[20%] transform lg:mt-[-20px] md:max-w-[25%] lg:max-w-[151px] md:h-full">
 
               <Image
                 src={activeProduct.url}
@@ -127,7 +171,7 @@ function Opthalmic() {
 
             </div>    
 
-            <div className="flex flex-col justify-center lg:justify-between items-center">
+            <div className="flex flex-col justify-center items-center lg:-translate-y-11 lg:space-y-5">
               <p className="leading-12 text-center capitalize">{activeProduct.title}</p>        
               <p className="font-bold">{`$${Number(activeProduct.price).toFixed(2)}`}</p>        
             </div>
