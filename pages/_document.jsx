@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <link rel="shortcut icon" href="/favicon.webp" />
       </Head>
       <body>
         <Main />

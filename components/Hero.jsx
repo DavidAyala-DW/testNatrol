@@ -64,7 +64,7 @@ function Hero() {
               Join the promotion
             </h4>
 
-            <div onClick={() => handleScrollDown()}  className="flexg cursor-pointer flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
+            <div onClick={() => handleScrollDown()}  className="flex cursor-pointer flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
               <HeroArrow/>
             </div>  
           </div>

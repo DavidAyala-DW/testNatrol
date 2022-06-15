@@ -41,7 +41,7 @@ function ContactUs() {
               color={"primary"}
               size="large"
               type="button"
-              className="lg:min-w-[75.3%]"
+              className="min-w-[220px] lg:min-w-[363px]"
             />
 
           </div>

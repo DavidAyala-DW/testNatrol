@@ -7,23 +7,23 @@ const data = {
   left: [
 
     {
-      question: "WHY EREDITÀ?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Why is this campaign different?",
+      answer: "Cineplex is actively partnering in this initiative to drive additional business to your store through a multi-channel marketing approach. The addition of scannable QR codes and priority Ad space makes this the first of its type in Canada and helps reduce the question of “where can I get that product” by showing a captive audience exactly where and how to buy the product. The pilot is widely expected to perform well, opening the door for future on-screen partnerships not only with Eredita Eyewear, but multiple product suppliers."
     },
 
     {
-      question: "REVIEWS",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Can I substitute other Police styles for my order?",
+      answer: "Due to the volumes anticipated with this campaign, initial orders are limited to our best sellers plus the Police:Bullet frames featured in the movie in order to maximize your sales and provide cross-selling opportunities. We welcome additions to your initial order – should you wish to do this, please contact sales@ereditaeyewear.com and quote your account name."
     },
 
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Do you offer warranty on your product?",
+      answer: "We fully stand by our product, and offer a warranty of 2 years from patient sale"
     },
 
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Why are you only accepting credit cards for this promotion?",
+      answer: "Due to the fast moving and time-sensitive nature of this promotion, we are securing payment via credit card.  Should you wish to have an ongoing credit facility, our Accounts Receivable team will be happy to work with you going forward."
     }
 
   ],
@@ -31,28 +31,28 @@ const data = {
   right: [
 
     {
-      question: "SHIPPING & RETURNS",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "What are your terms of payment?",
+      answer: "For this campaign, we are offering 30/60 terms on your order.  We will take a deposit of 10% of the full package price on July 15th to secure your space.  Of the remaining amount, 50% will be taken on/about August 30 and 50% will be taken on/about Sep 30."
     },
       
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Can I return product that does not sell?",
+      answer: "Yes, however due to the extended ad campaign associated with this initiative, we strongly encourage to retain the product on the board for at least 6 months before any return decisions are made."
     },
   
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "I don't want the Police brand, can I substitute other brands for this promotion?",
+      answer: "While we welcome your business for any one of our other brands, this specific promotion is available for Police frames only.  To inquire/open other brands, please contact sales@ereditaeyewear.com and a member of our sales team will contact you to provide more details on opening orders, minimums, etc."
     },
   
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Do you guarantee that customers will visit my store as part of this promotion?",
+      answer: "Since this is a pilot, we do not have analytics from previous campaigns on the advertisement to store conversion ratio.We can confidently state that over 1M viewers will watch this movie Canada-wide and with our B2B 'authorized retailer' feature on the site's landing page, customers will be directed to your store more actively than any other ad campaign of this type.  We fully expect a healthy store conversion ratio, but we cannot fully guarantee store visits."
     },
   
     {
-      question: "Nullam maximus nulla eu viverra tempor. Donec?",
-      answer: "Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor"
+      question: "Will you be selling direct to the public?",
+      answer: "Yes. Customers that are directed to the landing page will also have the opportunity to buy frames direct from Eredita Eyewear, at an elevated price from standard MSRP.  Efforts are being made to drive the consumer to your business as the primary method of purchase."
     }
 
   ]
@@ -74,9 +74,14 @@ function FAQ() {
       target.classList.remove("!bg-[#001C71]")
       less.classList.remove("!block");
       more.classList.remove("!hidden");
+    
+      answer.style.maxHeight = "0px";
 
-      answer.classList.remove("!visible");
-      answer.classList.remove("!max-h-[130px]");
+      setTimeout(() =>{
+        answer.classList.remove("!visible");
+        answer.classList.remove("!static");
+        answer.removeAttribute("style");
+      },150)
 
     }else{
 
@@ -84,8 +89,14 @@ function FAQ() {
       less.classList.add("!block");
       more.classList.add("!hidden");
 
-      answer.classList.add("!visible");
-      answer.classList.add("!max-h-[130px]");
+      const answerHeight = answer.clientHeight;
+      answer.classList.add("!static");
+      answer.style.maxHeight = "0px";
+
+      setTimeout(() =>{
+        answer.classList.add("!visible");
+        answer.style.maxHeight = `${answerHeight}px`;
+      },10)
 
     }
 
@@ -125,7 +136,7 @@ function FAQ() {
 
                   </div>
 
-                  <p className="max-h-0 select-none answer transition-[max-height] invisible max-w-[430px] text-[#6F6C90] text-sm 2xs:text-lg leading-[30px]">
+                  <p className="absolute overflow-hidden select-none answer transition-[max-height] invisible max-w-[430px] text-[#6F6C90] text-sm 2xs:text-lg leading-[30px]">
                     {answer}
                   </p>
         
@@ -161,7 +172,7 @@ function FAQ() {
 
                   </div>
 
-                  <p className="max-h-0 select-none answer transition-[max-height] invisible max-w-[430px] text-[#6F6C90] text-sm 2xs:text-lg leading-[30px]">
+                  <p className="absolute overflow-hidden select-none answer transition-[max-height] invisible max-w-[430px] text-[#6F6C90] text-sm 2xs:text-lg leading-[30px]">
                     {answer}
                   </p>
         

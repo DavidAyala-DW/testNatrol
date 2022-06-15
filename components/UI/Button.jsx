@@ -4,7 +4,7 @@ function Button({color,text,size,type,className}) {
 
   const sizeClassName = {
     small : "py-2.5 px-3 leading-4 text-[13px]",
-    large : "py-[13.5px] px-4 leading-[21px] text-[17.2px]"
+    large : "py-[13.5px] px-4 leading-[21px] text-[17.2px] min-w-[220px] sm:min-w-[363px]"
   };
 
   const mode= {
@@ -13,7 +13,7 @@ function Button({color,text,size,type,className}) {
   }
   
   return (
-    <button type={type} className={` ${className} border w-max ${sizeClassName[size]} ${mode[color]} uppercase tracking-[.145em] font-bold text-center`}>
+    <button type={type} className={`${className} border w-max ${sizeClassName[size]} ${mode[color]} uppercase tracking-[.145em] font-bold text-center`}>
       {text}
     </button>
   )
