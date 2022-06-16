@@ -19,6 +19,15 @@ module.exports = {
       },
       boxShadow:{
         "introduction": "0px 2px 6px rgba(151, 172, 198, 0.25)"
+      },
+      keyframes:{
+        bounce2:{
+          "0%, 100%": { transform: "translateY(-15%)",animationTimingFunction: "cubic-bezier(0.8,0,1,1)"},
+          "50%":{transform: "none", animationTimingFunction:"cubic-bezier(0,0,0.2,1)"}
+        }
+      },
+      animation: {
+        "arrow": "bounce2 1s infinite"
       }
     },
     screens: {

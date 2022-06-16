@@ -34,7 +34,7 @@ function Introduction() {
             <Button
               color="primary"
               text="Apply To Participate"
-              size="small"
+              size="large"
               type="button"
               className="2xs:!text-[21px] md:!text-[13px]"
             />

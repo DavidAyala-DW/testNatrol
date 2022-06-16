@@ -28,7 +28,7 @@ function Footer() {
 
             </div>
 
-            <div className="flex items-center space-x-7 opacity-50">
+            {/* <div className="flex items-center space-x-7 opacity-50">
 
               <div className="flex fle-col h-[30px] w-[30px] justify-center items-center rounded-full">
                 <Facebook/>
@@ -42,7 +42,7 @@ function Footer() {
                 <Instagram/>
               </div>
 
-            </div>
+            </div> */}
 
           </div>
 
@@ -54,10 +54,10 @@ function Footer() {
 
             <div className="flex flex-col mb-4 text-[15px] leading-[1.65] font-normal space-y-[15px]">
 
-              <p>Terms of Service</p>
-              <p>Refund Policy</p>
-              <p>Privacy Policy</p>
-              <p>Shipping Policy</p>
+              <a target="_blank" rel="noopener noreferrer" href="https://ereditaeyewear.com/policies/terms-of-service">Terms of Service</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://ereditaeyewear.com/policies/refund-policy">Refund Policy</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://ereditaeyewear.com/policies/privacy-policy">Privacy Policy</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://ereditaeyewear.com/policies/shipping-policy">Shipping Policy</a>
 
             </div>
 
@@ -71,8 +71,8 @@ function Footer() {
             <BrandsFooter/>
 
             <div className="absolute grid grid-cols-[57.3%_43.7%] inset-0 w-full h-full">
-              <a className="w-full h-full block" href="https://ereditaeyewear.com/"></a>
-              <a className="w-full h-full block" href="https://www.cineplex.com/"></a>
+              <a target="_blank" rel="noopener noreferrer" className="w-full h-full block" href="https://ereditaeyewear.com/"></a>
+              <a target="_blank" rel="noopener noreferrer" className="w-full h-full block" href="https://www.cineplex.com/"></a>
             </div>
 
           </div>
@@ -85,7 +85,9 @@ function Footer() {
             © 2022 Eredità Eyewear Group Inc. | Website & Marketing by :
           </p>
 
-          <Speers/>
+          <a href="https://www.speerscreative.ca">
+            <Speers/>
+          </a>
           
         </div>
       

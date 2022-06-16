@@ -34,9 +34,9 @@ function Hero() {
 
       <div className="flex flex-col pt-[210px] pb-[53px] lg:py-0">
 
-        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[600px] 3xl:max-w-[900px] mx-auto z-20 lg:pb-10">
+        <div className="flex flex-col h-full w-[95%] md:w-[62.5%] lg:max-w-[680px] 3xl:max-w-[900px] mx-auto z-20 lg:pb-10">
 
-          <div className="block lg:mt-20">
+          <div className="block lg:mt-10">
             <Image
               src={HeroMain}
               alt="hero_main.webp"
@@ -46,26 +46,18 @@ function Hero() {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-5">
 
-            {/* <a
-              className="w-max mb-4 md:mb-[25px] mx-auto "
-              href=""
-            >
-              <Button
-                color={"primary"}
-                text={"Apply To Participate"}
-                size={"small"}
-                type={"button"}
-              />
-            </a> */}
-
-            <h4 className="max-w-[220px] mb-2 md:mb-3 text-primary mx-auto text-lg leading-[22px] text-center font-bold uppercase tracking-[.145em]">
+            <h4 className="max-w-[220px] mb-4 md:mb-3 text-primary mx-auto text-sm leading-[22px] text-center font-bold uppercase tracking-[.145em]">
               Join the promotion
             </h4>
 
-            <div onClick={() => handleScrollDown()}  className="flex cursor-pointer flex-col justify-center items-center h-[90px] w-[90px] mx-auto rounded-full border-2 border-primary border-dashed">
-              <HeroArrow/>
+            <div onClick={() => handleScrollDown()}  className="flex animate-arrow hover:animate-none cursor-pointer flex-col justify-center items-center h-[70px] w-[70px] scale-100 hover:scale-110 transition-transform mx-auto rounded-full border-2 border-primary border-dashed">
+
+              <div className="w-[60%] pointer-events-none">
+                <HeroArrow/>
+              </div>
+              
             </div>  
           </div>
 
