@@ -24,10 +24,15 @@ module.exports = {
         bounce2:{
           "0%, 100%": { transform: "translateY(-15%)",animationTimingFunction: "cubic-bezier(0.8,0,1,1)"},
           "50%":{transform: "none", animationTimingFunction:"cubic-bezier(0,0,0.2,1)"}
+        },
+        scaleAnimation:{
+          "0%":{transform:"scale(.9)"},
+          "100%": {transform:"scale(1.05)"}
         }
       },
       animation: {
-        "arrow": "bounce2 1s infinite"
+        "arrow": "bounce2 1s infinite",
+        "hoverArrow": "scaleAnimation 0.5s alternate infinite ease-in-out"
       }
     },
     screens: {

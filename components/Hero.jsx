@@ -52,7 +52,7 @@ function Hero() {
               Join the promotion
             </h4>
 
-            <div onClick={() => handleScrollDown()}  className="flex animate-arrow hover:animate-none cursor-pointer flex-col justify-center items-center h-[70px] w-[70px] scale-100 hover:scale-110 transition-transform mx-auto rounded-full border-2 border-primary border-dashed">
+            <div onClick={() => handleScrollDown()}  className="flex animate-arrow  cursor-pointer flex-col justify-center items-center h-[70px] w-[70px]  hover:animate-hoverArrow transition mx-auto rounded-full border-2 border-primary border-dashed">
 
               <div className="w-[60%] pointer-events-none">
                 <HeroArrow/>
