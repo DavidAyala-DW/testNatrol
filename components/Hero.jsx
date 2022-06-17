@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import HeroArrow from "../public/hero_arrow.svg";
 import Button from './UI/Button';
-import HeroBanner from "../public/hero_banner.webp"
+import HeroBanner from "../public/Bullet-Train-Background-Hero.webp"
 import HeroMain from "../public/Eredità-Cineplex_Hero-Header.webp";
 
 function Hero() {
@@ -24,7 +24,7 @@ function Hero() {
           alt="alt"
           layout='fill'
           priority={true}
-          quality={80}
+          quality={100}
           className="object-cover object-[68%] lg:object-center"
         />
 

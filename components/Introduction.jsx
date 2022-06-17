@@ -36,7 +36,6 @@ function Introduction() {
               text="Apply To Participate"
               size="large"
               type="button"
-              className="2xs:!text-[21px] md:!text-[13px]"
             />
 
           </a>
