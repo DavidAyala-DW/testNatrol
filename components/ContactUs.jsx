@@ -36,13 +36,15 @@ function ContactUs() {
               Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor
             </p>
 
-            <Button
-              text="Apply To Participate"
-              color={"primary"}
-              size="large"
-              type="button"
-              className="min-w-[220px] lg:min-w-[363px]"
-            />
+            <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="block">
+              <Button
+                text="Apply To Participate"
+                color={"primary"}
+                size="large"
+                type="button"
+                className="min-w-[220px] lg:min-w-[363px]"
+              />
+            </a>
 
           </div>
 

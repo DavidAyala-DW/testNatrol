@@ -38,7 +38,7 @@ function Navbar() {
 
       </nav>
 
-      <a href="" className="block">
+      <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="block">
         <Button
           color={"primary"}
           text={"Apply To Participate"}

@@ -35,7 +35,7 @@ export default function Home() {
 
       <Opthalmic/>
 
-      <a href="" className="mt-9 select-none mb-12 max-w-max mx-auto">
+      <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="mt-9 select-none mb-12 max-w-max mx-auto">
         <Button
           color="primary"
           text="Apply To Participate"
@@ -48,7 +48,7 @@ export default function Home() {
 
       <Opportunity/>
 
-      <a href="" className="mt-9 mb-[68px] max-w-max mx-auto">
+      <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="mt-9 mb-[68px] max-w-max mx-auto">
         <Button
           color="primary"
           text="Apply To Participate"
@@ -63,7 +63,7 @@ export default function Home() {
 
       <FAQ/>
 
-      <a href="" className="mt-[45px] mb-20 max-w-max mx-auto">
+      <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="mt-[45px] mb-20 max-w-max mx-auto">
         <Button
           color="primary"
           text="Apply To Participate"

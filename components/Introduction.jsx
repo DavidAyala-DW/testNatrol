@@ -29,7 +29,7 @@ function Introduction() {
             Aside from being featured and worn by top A-Listers in the upcoming hit “Bullet Train”, these frames come in a wide variety of 6 sun and 6 ophthalmic SKU’s, offering huge sales opportunities for optical shops looking for more growth & exposure in the market, all done for you!
           </p>
 
-          <a className="block w-max mx-auto md:mx-0" href="">
+          <a className="block w-max mx-auto md:mx-0" href="https://ereditaeyewear.com/products/police-x-bullet-train">
 
             <Button
               color="primary"
