@@ -29,11 +29,11 @@ function ContactUs() {
           <div className="flex flex-col items-center lg:items-start lg:px-[75px] mb-[120px]">
 
             <h3 className="text-primary text-center uppercase text-[32px] font-black tracking-[.145em] leading-[38px] mb-10">
-              headline goes here
+              Join The Promotion!
             </h3>
 
             <p className="max-w-[471px] text-center lg:text-left w-full text-lg font-normal leading-[30px] text-[#6F6C90] mb-10">
-              Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor
+              Don’t miss your chance to be a part of this summer’s blockbuster hit, and gain nationwide exposure!
             </p>
 
             <a href="https://ereditaeyewear.com/products/police-x-bullet-train" className="block">
