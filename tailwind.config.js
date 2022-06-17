@@ -26,13 +26,13 @@ module.exports = {
           "50%":{transform: "none", animationTimingFunction:"cubic-bezier(0,0,0.2,1)"}
         },
         scaleAnimation:{
-          "0%":{transform:"scale(.9)"},
-          "100%": {transform:"scale(1.05)"}
+          "0%":{transform:"scale(1)"},
+          "100%": {transform:"scale(1.15)"}
         }
       },
       animation: {
         "arrow": "bounce2 1s infinite",
-        "hoverArrow": "scaleAnimation 0.5s alternate infinite ease-in-out"
+        "hoverArrow": "scaleAnimation 0.4s alternate infinite ease-in-out"
       }
     },
     screens: {

@@ -18,6 +18,10 @@ export default function Home() {
   return (
 
     <div className="flex flex-col">
+      
+      <Head>
+        <title>Eredità-Cineplex | Shop The Movies</title>
+      </Head>
 
       <Navbar/>
 
