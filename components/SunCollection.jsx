@@ -11,12 +11,35 @@ import MenDesktop from "../public/SUN.webp";
 import Women from "../public/Optical-full.webp";
 import WomenDesktop from "../public/Optical.webp"
 
-import Sun1 from "../public/sun1.png";
-import Sun2 from "../public/sun2.png";
-import Sun3 from "../public/sun3.png";
-import Sun4 from "../public/sun4.png";
-import Sun5 from "../public/sun5.png";
-import Sun6 from "../public/sun6.png";
+import Sun1 from "../public/sun1_front.png";
+import Sun1Main from "../public/sun1_main.png";
+
+import Sun2 from "../public/sun2_front.png";
+import Sun2Main from "../public/sun2_main.png";
+
+import Sun3 from "../public/sun3_front.png";
+import Sun3Main from "../public/sun3_main.png";
+
+import Sun4 from "../public/sun4_front.png";
+import Sun4Main from "../public/sun4_main.png";
+
+import Sun5 from "../public/sun5_front.png";
+import Sun5Main from "../public/sun5_main.png";
+
+import Sun6 from "../public/sun6_front.png";
+import Sun6Main from "../public/sun6_main.png";
+
+import Sun7 from "../public/sun7_front.png";
+import Sun7Main from "../public/sun7_main.png";
+
+import Sun8 from "../public/sun8_front.png";
+import Sun8Main from "../public/sun8_main.png";
+
+import Sun9 from "../public/sun9_front.png";
+import Sun9Main from "../public/sun9_main.png";
+
+import Sun10 from "../public/sun10_front.png";
+import Sun10Main from "../public/sun10_main.png";
 
 import RightArrow from "../public/right.svg";
 import LeftArrow from "../public/left.svg";
@@ -25,88 +48,74 @@ const products = [
 
   {
     url: Sun1,
-    title:"Vivamus Sit Smet 1",
+    title:"SPL872V",
     price: 700.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
+    desktop_image: Sun1Main,
+    mobile_image: Sun1Main
   },
   {
     url: Sun2,
-    title:"Vivamus Sit Smet 2",
+    title:"SPL995",
     price: 710.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
+    desktop_image: Sun2Main,
+    mobile_image: Sun2Main
   },
   {
     url: Sun3,
-    title:"Vivamus Sit Smet 3",
+    title:"SPLE37-1",
     price: 720.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
+    desktop_image: Sun3Main,
+    mobile_image: Sun3Main
   },
   {
     url: Sun4,
-    title:"Vivamus Sit Smet 4",
+    title:"SPLE37-2",
     price: 730.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
+    desktop_image: Sun4Main,
+    mobile_image: Sun4Main
   },
   {
     url: Sun5,
-    title:"Vivamus Sit Smet 5",
+    title:"SPLE37-3",
     price: 740.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
+    desktop_image: Sun5Main,
+    mobile_image: Sun5Main
   },
   {
     url: Sun6,
-    title:"Vivamus Sit Smet 6",
+    title:"SPLE37-4",
     price: 750.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
+    desktop_image: Sun6Main,
+    mobile_image: Sun6Main
   },
   {
-    url: Sun6,
-    title:"Vivamus Sit Smet 6",
+    url: Sun7,
+    title:"SPLB28",
     price: 750.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
+    desktop_image: Sun7Main,
+    mobile_image: Sun7Main
   },
   {
-    url: Sun5,
-    title:"Vivamus Sit Smet 5",
+    url: Sun8,
+    title:"SPLB32",
     price: 740.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
+    desktop_image: Sun8Main,
+    mobile_image: Sun8Main
   },
   {
-    url: Sun4,
-    title:"Vivamus Sit Smet 4",
+    url: Sun9,
+    title:"SPLB40N",
     price: 730.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
+    desktop_image: Sun9Main,
+    mobile_image: Sun9Main
   },
   {
-    url: Sun3,
-    title:"Vivamus Sit Smet 3",
+    url: Sun10,
+    title:"SPLE06",
     price: 720.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun2,
-    title:"Vivamus Sit Smet 2",
-    price: 710.00,
-    desktop_image: WomenDesktop,
-    mobile_image: Women
-  },
-  {
-    url: Sun1,
-    title:"Vivamus Sit Smet 1",
-    price: 700.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
+    desktop_image: Sun10Main,
+    mobile_image: Sun10Main
+  }
 
 ]
 

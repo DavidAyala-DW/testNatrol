@@ -5,18 +5,39 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
-import Men from "../public/Sun-full.webp";
-import MenDesktop from "../public/SUN.webp";
+import Opt1 from "../public/opt1_front.png";
+import Opt1Main from "../public/opt1_main.png";
 
-import Women from "../public/Optical-full.webp";
-import WomenDesktop from "../public/Optical.webp"
+import Opt2 from "../public/opt2_front.png";
+import Opt2Main from "../public/opt2_main.png";
 
-import Sun1 from "../public/sun1.png";
-import Sun2 from "../public/sun2.png";
-import Sun3 from "../public/sun3.png";
-import Sun4 from "../public/sun4.png";
-import Sun5 from "../public/sun5.png";
-import Sun6 from "../public/sun6.png";
+import Opt3 from "../public/opt3_front.png";
+import Opt3Main from "../public/opt3_main.png";
+
+import Opt4 from "../public/opt4_front.png";
+import Opt4Main from "../public/opt4_main.png";
+
+import Opt5 from "../public/opt5_front.png";
+import Opt5Main from "../public/opt5_main.png";
+
+import Opt6 from "../public/opt6_front.png";
+import Opt6Main from "../public/opt6_main.png";
+
+import Opt7 from "../public/opt7_front.png";
+import Opt7Main from "../public/opt7_main.png";
+
+import Opt8 from "../public/opt8_front.png";
+import Opt8Main from "../public/opt8_main.png";
+
+import Opt9 from "../public/opt9_front.png";
+import Opt9Main from "../public/opt9_main.png";
+
+import Opt10 from "../public/opt10_front.png";
+import Opt10Main from "../public/opt10_main.png";
+
+import Opt11 from "../public/opt11_front.png";
+import Opt11Main from "../public/opt11_main.png";
+
 
 import RightArrow from "../public/right.svg";
 import LeftArrow from "../public/left.svg";
@@ -24,89 +45,93 @@ import LeftArrow from "../public/left.svg";
 const products = [ 
 
   {
-    url: Sun1,
-    title:"Vivamus Sit Smet 1",
+    url: Opt1,
+    title:"VPLB31",
     price: 700.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
+    desktop_image: Opt1Main ,
+    mobile_image: Opt1Main 
   },
+
   {
-    url: Sun2,
-    title:"Vivamus Sit Smet 2",
-    price: 710.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun3,
-    title:"Vivamus Sit Smet 3",
-    price: 720.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
-  },
-  {
-    url: Sun4,
-    title:"Vivamus Sit Smet 4",
-    price: 730.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun5,
-    title:"Vivamus Sit Smet 5",
-    price: 740.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
-  },
-  {
-    url: Sun6,
-    title:"Vivamus Sit Smet 6",
-    price: 750.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun6,
-    title:"Vivamus Sit Smet 6",
-    price: 750.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun5,
-    title:"Vivamus Sit Smet 5",
-    price: 740.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
-  },
-  {
-    url: Sun4,
-    title:"Vivamus Sit Smet 4",
-    price: 730.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun3,
-    title:"Vivamus Sit Smet 3",
-    price: 720.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
-  },
-  {
-    url: Sun2,
-    title:"Vivamus Sit Smet 2",
-    price: 710.00,
-    desktop_image: MenDesktop,
-    mobile_image: Men
-  },
-  {
-    url: Sun1,
-    title:"Vivamus Sit Smet 1",
+    url: Opt2,
+    title:"VPLA49",
     price: 700.00,
-    desktop_image: WomenDesktop ,
-    mobile_image: Women 
+    desktop_image: Opt2Main ,
+    mobile_image: Opt2Main 
   },
+
+  {
+    url: Opt3,
+    title:"VPLA36-1",
+    price: 700.00,
+    desktop_image: Opt3Main ,
+    mobile_image: Opt3Main 
+  },
+
+  {
+    url: Opt4,
+    title:"VPLA-42",
+    price: 700.00,
+    desktop_image: Opt4Main ,
+    mobile_image: Opt4Main 
+  },
+
+  {
+    url: Opt5,
+    title:"VPLA49",
+    price: 700.00,
+    desktop_image: Opt5Main ,
+    mobile_image: Opt5Main 
+  },
+
+  {
+    url: Opt6,
+    title:"VPLB31",
+    price: 700.00,
+    desktop_image: Opt6Main ,
+    mobile_image: Opt6Main 
+  },
+
+  {
+    url: Opt7,
+    title:"VPLB56",
+    price: 700.00,
+    desktop_image: Opt7Main ,
+    mobile_image: Opt7Main 
+  },
+
+  {
+    url: Opt8,
+    title:"VPLC52",
+    price: 700.00,
+    desktop_image: Opt8Main ,
+    mobile_image: Opt8Main 
+  },
+
+  {
+    url: Opt9,
+    title:"VPLD06",
+    price: 700.00,
+    desktop_image: Opt9Main ,
+    mobile_image: Opt9Main 
+  },
+
+  {
+    url: Opt10,
+    title:"VPLD07",
+    price: 700.00,
+    desktop_image: Opt10Main ,
+    mobile_image: Opt10Main 
+  },
+
+  {
+    url: Opt11,
+    title:"VPLE36",
+    price: 700.00,
+    desktop_image: Opt11Main ,
+    mobile_image: Opt11Main 
+  },
+  
 
 ]
 
