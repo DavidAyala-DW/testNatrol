@@ -3,7 +3,7 @@ import Image from "next/image";
 import HeroArrow from "../public/hero_arrow.svg";
 import Button from './UI/Button';
 import HeroBanner from "../public/Bullet-Train-Background-Hero-WEB.webp"
-import HeroMain from "../public/Hero-Header-Glasses-WEB.png";
+import HeroMain from "../public/Hero-Header-Glasses-WEB(1).png";
 
 function Hero() {
 
