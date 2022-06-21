@@ -151,7 +151,7 @@ function SunCollection() {
             />
           </div>
 
-          <div className="hidden lg:block max-w-[calc(77%)] h-full relative">
+          <div className="hidden lg:block max-w-[calc(100%)] h-full relative">
             <Image
               src={activeProduct.desktop_image}
               layout="fill"
@@ -165,7 +165,7 @@ function SunCollection() {
             md:justify-center md:bottom-0 absolute md:max-w-full lg:max-w-[35.4%]
             md:max-h-[129px] lg:h-full lg:max-h-[230px] overflow-y-hidden h-max w-full flex md:space-x-2.5 overflow-hidden
             lg:flex-col lg:items-center lg:py-0 lg:shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]
-            lg:top-[20%] lg:right-6 lg:left-auto
+            lg:top-[20%] lg:right-6 lg:left-auto md:!hidden
             "
           >
 
@@ -182,7 +182,6 @@ function SunCollection() {
 
             <div className="flex flex-col justify-center items-center lg:-translate-y-11 lg:space-y-5">
               <p className="leading-12 text-center capitalize">{activeProduct.title}</p>        
-              <p className="font-bold">{`$${Number(activeProduct.price).toFixed(2)}`}</p>        
             </div>
 
 
