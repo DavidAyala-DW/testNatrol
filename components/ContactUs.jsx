@@ -51,9 +51,28 @@ function ContactUs() {
           </div>
 
           <div className="max-w-[95%] lg:max-w-[calc(100%-80px)] flex items-center justify-between mx-auto">
-            <Eredita/>
-            <Cineplex/>
-            <div className="w-full max-w-[158px]">
+
+            <div className="w-full max-w-[32.84%]">
+              <Image
+              src="/eredita-contact.svg"
+              alt="svg"
+              layout="responsive"
+              width="181"
+              height="19.5"
+              />
+            </div>
+
+            <div className="w-full max-w-[22.9%]">
+              <Image
+              src="/cineplex-contact.svg"
+              alt="svg"
+              layout="responsive"
+              width="126"
+              height="34"
+              />
+            </div>
+
+            <div className="w-full max-w-[28.6%]">
               <Image
                 src={BulletTrain}
                 alt="bullet-train"
