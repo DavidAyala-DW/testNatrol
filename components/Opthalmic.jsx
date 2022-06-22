@@ -151,7 +151,7 @@ function Opthalmic() {
             <Image
               src={activeProduct.mobile_image}
               layout="fill"
-              className="object-center object-contain"
+              className={`object-center ${activeProduct.type == "glass" ? 'object-contain' : 'object-cover'  }`}
               alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
             />
           </div>

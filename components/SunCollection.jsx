@@ -134,7 +134,7 @@ function SunCollection() {
               src={activeProduct.mobile_image}
               quality={100}
               layout="fill"
-              className="object-center object-contain"
+              className={`object-center ${activeProduct.type == "glass" ? 'object-contain' : 'object-cover'  }`}
               alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
             />
           </div>
