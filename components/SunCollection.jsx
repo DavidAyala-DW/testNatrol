@@ -89,7 +89,7 @@ const products = [
   },
   {
     url: Sun2,
-    title:"???",
+    title:"SPLA72",
     price: 710.00,
     desktop_image: Sun2Main,
     mobile_image: Sun2Main,
