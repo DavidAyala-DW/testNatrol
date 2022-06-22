@@ -182,7 +182,7 @@ function SunCollection() {
           
           <Swiper
             modules={[Navigation]}
-            spaceBetween={5}
+            spaceBetween={10}
             slidesPerView={1}
             loop={true}
             navigation={{

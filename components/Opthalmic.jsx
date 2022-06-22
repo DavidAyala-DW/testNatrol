@@ -200,7 +200,7 @@ function Opthalmic() {
           <Swiper
             modules={[Navigation]}
             allowTouchMove={false}
-            spaceBetween={5}
+            spaceBetween={10}
             slidesPerView={1}
             loop={true}
             navigation={{
