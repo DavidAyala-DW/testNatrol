@@ -185,12 +185,22 @@ function SunCollection() {
             spaceBetween={10}
             slidesPerView={1}
             loop={true}
+            breakpoints={
+              {
+                320: {
+                  autoHeight: true
+                },
+                768: {
+                  autoHeight: false
+                },
+              }
+            }
             navigation={{
               prevEl: ".swiper-prev",
               nextEl: ".swiper-next"
             }}
             allowTouchMove={false}
-            className="block lg:grid w-full h-full"
+            className="block lg:grid w-full h-full mb-[50px] md:mb-0"
           >
 
             <SwiperSlide className="w-full flex flex-col h-full">

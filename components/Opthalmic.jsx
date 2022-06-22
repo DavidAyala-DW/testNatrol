@@ -207,10 +207,17 @@ function Opthalmic() {
               prevEl: ".swiper-prev-2",
               nextEl: ".swiper-next-2"
             }}
-            // onSwiper={(swiper) => {
-            //   console.log(swiper);
-            // }}
-            className="block lg:grid w-full h-full"
+            breakpoints={
+              {
+                320: {
+                  autoHeight: true
+                },
+                768: {
+                  autoHeight: false
+                },
+              }
+            }
+            className="block lg:grid w-full h-full mb-[50px] md:mb-0"
           >
 
             <SwiperSlide className="w-full flex flex-col h-full">
