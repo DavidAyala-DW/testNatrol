@@ -156,7 +156,7 @@ function Opthalmic() {
             />
           </div>
 
-          <div className="hidden lg:block max-w-[calc(100%)] relative">
+          <div className="hidden lg:block max-w-[calc(100%)] h-full max-h-full overflow-hidden relative">
             <Image
               src={activeProduct.desktop_image}
               layout="fill"
