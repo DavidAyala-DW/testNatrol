@@ -137,15 +137,15 @@ function Opthalmic() {
 
   return (
 
-    <section className="px-5 select-none md:px-0 md:max-w-[85%] mx-auto lg:pr-8 w-full flex flex-col mb-[70px] mt-[54px]">
+    <section className="px-5 select-none h-full md:px-0 md:max-w-[85%] mx-auto lg:pr-8 w-full flex flex-col mb-[70px] mt-[54px]">
 
       <h2 className="uppercase text-left text-2xl font-starduster italic leading-[23px] tracking-[.145em] text-primary mb-[35px]">
         ophthalmic
       </h2>
 
-      <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:overflow-hidden md:gap-x-[60px] relative">
+      <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-[60px] relative h-full">
 
-        <div className="w-full h-[calc(100vw)] md:h-auto block max-h-full overflow-hidden relative border border-black">
+        <div className="w-full h-[calc(100vw)] md:h-full block max-h-full overflow-hidden relative border border-black">
 
           <div className="block lg:hidden">
             <Image
