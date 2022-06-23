@@ -125,7 +125,7 @@ function SunCollection() {
         sun
       </h2>
 
-      <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-[60px] relative">
+      <div className="flex flex-col space-y-10 md:space-y-0 md:grid md:overflow-hidden md:grid-cols-2 md:gap-x-[60px] relative">
 
         <div className="w-full h-[calc(100vw)] md:h-auto max-h-full overflow-hidden block relative border border-black">
 
