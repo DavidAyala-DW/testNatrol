@@ -143,7 +143,7 @@ function SunCollection() {
             <Image
               src={activeProduct.desktop_image}
               quality={100}
-              layout="responsive"
+              layout="fill"
               className="object-center object-cover"
               alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
             />

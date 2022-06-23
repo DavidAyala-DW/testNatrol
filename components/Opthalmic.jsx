@@ -159,7 +159,7 @@ function Opthalmic() {
           <div className="hidden lg:block max-w-[calc(100%)] h-full max-h-max relative">
             <Image
               src={activeProduct.desktop_image}
-              layout="responsive"
+              layout="fill"
               className="object-center object-cover"
               alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
             />
@@ -195,7 +195,7 @@ function Opthalmic() {
 
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-max">
           
           <Swiper
             modules={[Navigation]}
@@ -217,18 +217,18 @@ function Opthalmic() {
                 },
               }
             }
-            className="block lg:grid w-full h-full mb-[50px] md:mb-0"
+            className="block lg:grid w-full h-max mb-[50px] md:mb-0"
           >
 
-            <SwiperSlide className="w-full flex flex-col h-full">
+            <SwiperSlide className="w-full flex flex-col h-max">
 
-              <div className="grid grid-cols-3 gap-x-[26px] select-none gap-y-10 w-full h-full">
+              <div className="grid grid-cols-3 gap-x-[26px] select-none gap-y-10 w-full h-max">
 
                 { products.map( (product,index) => {
                   if(index > 5) return;
                   return (
                     
-                    <div key={index} onClick={() => handleClickProduct(index) } className="h-full cursor-pointer w-full relative flex flex-col space-y-5">
+                    <div key={index} onClick={() => handleClickProduct(index) } className="h-max cursor-pointer w-full relative flex flex-col space-y-5">
 
                       <div className="block px-2 bg-white border rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]">
                         <Image
@@ -254,16 +254,16 @@ function Opthalmic() {
 
             </SwiperSlide>
 
-            <SwiperSlide className="w-full flex flex-col h-full">
+            <SwiperSlide className="w-full flex flex-col h-max">
 
-              <div className="grid grid-cols-3 gap-x-5 select-none gap-y-10 w-full h-full">
+              <div className="grid grid-cols-3 gap-x-5 select-none gap-y-10 w-full h-max">
 
                 { products.map( (product,index) => {
                   
                   if(index <= 5) return;
                   return (
                     
-                    <div key={index} onClick={() => handleClickProduct(index) } className="h-full cursor-pointer w-full flex flex-col space-y-5 relative">
+                    <div key={index} onClick={() => handleClickProduct(index) } className="h-max cursor-pointer w-full flex flex-col space-y-5 relative">
 
                       <div className="block px-2 bg-white border rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]">
                         <Image
