@@ -156,7 +156,7 @@ function Opthalmic() {
             />
           </div>
 
-          <div className="hidden lg:block max-w-[calc(100%)] h-full max-h-max relative">
+          <div className="hidden lg:block max-w-[calc(100%)] h-full max-h-full overflow-hidden relative">
             <Image
               src={activeProduct.desktop_image}
               layout="fill"
@@ -187,7 +187,6 @@ function Opthalmic() {
 
             <div className="flex flex-col justify-center items-center lg:-translate-y-11 lg:space-y-5">
               <p className="leading-12 text-center uppercase">{activeProduct.title}</p>        
-              {/* <p className="font-bold">{`$${Number(activeProduct.price).toFixed(2)}`}</p>         */}
             </div>
 
 
@@ -203,6 +202,7 @@ function Opthalmic() {
             spaceBetween={10}
             slidesPerView={1}
             loop={true}
+            autoHeight={false}
             navigation={{
               prevEl: ".swiper-prev-2",
               nextEl: ".swiper-next-2"
@@ -230,7 +230,7 @@ function Opthalmic() {
                     
                     <div key={index} onClick={() => handleClickProduct(index) } className="h-max cursor-pointer w-full relative flex flex-col space-y-5">
 
-                      <div className="block px-2 bg-white border rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)]">
+                      <div className="block px-2 bg-white border rounded-[10px] shadow-[0px_2px_6px_rgba(151,_172,_198,_0.25)] w-full">
                         <Image
                           src={product.url}
                           alt={product.url}
