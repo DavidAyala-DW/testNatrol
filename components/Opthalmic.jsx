@@ -159,7 +159,7 @@ function Opthalmic() {
           <div className="hidden lg:block max-w-[calc(100%)] h-full max-h-max relative">
             <Image
               src={activeProduct.desktop_image}
-              layout="fill"
+              layout="responsive"
               className="object-center object-cover"
               alt="portrait-handsome-confident-stylish-hipster-lambersexual-modelmodern-man-dressed-white-shirt-fashion.webp"
             />
