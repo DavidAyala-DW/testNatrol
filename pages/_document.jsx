@@ -7,21 +7,23 @@ export default function Document() {
         <link rel="shortcut icon" href="/favicon.webp" />        
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(          { 
-            "@context": "https://schema.org",
-            "@type": "Corporation",
-            "name": "",
-            "name2": "",
-            "url": "https://natrol.myshopify.com",
-            "logo": "https://cdn.shopify.com/s/files/1/0616/2130/5564/files/header-logo_2.svg?v=7058060604916427305",
-            "sameAs": [
-            "https://www.facebook.com/natrol",
-            "https://twitter.com/natrol",
-            "https://www.instagram.com/natrolofficial/?hl=en",
-            "https://www.pinterest.com/natrolofficial/",
-            "https://www.youtube.com/user/natrolinc/videos"
-            ]
-          }) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(
+            { 
+              "@context": "https://schema.org",
+              "@type": "Corporation",
+              "name": "",
+              "name2": "",
+              "url": "https://natrol.myshopify.com",
+              "logo": "https://cdn.shopify.com/s/files/1/0616/2130/5564/files/header-logo_2.svg?v=7058060604916427305",
+              "sameAs": [
+              "https://www.facebook.com/natrol",
+              "https://twitter.com/natrol",
+              "https://www.instagram.com/natrolofficial/?hl=en",
+              "https://www.pinterest.com/natrolofficial/",
+              "https://www.youtube.com/user/natrolinc/videos"
+              ]
+            }
+          )}}
         >
         </script>
 
@@ -30,7 +32,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(          
             {
              "@context": "https://schema.org/",
-             "@type": "",
+             "@type": "Product",
              "name": "Sleep+ Calm Capsules",
              "image": "https://cdn.shopify.com/s/files/1/0616/2130/5564/products/Natrol-SleepPlus-Calm-Capsules-30ct-Front_320x.png?v=1654659896",
              "description": "Natrol Sleep+ Calm helps calm an active mind and body, and ease you to sleep.†",

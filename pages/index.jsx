@@ -1,5 +1,7 @@
+
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import AuthorizedRetailer from '../components/AuthorizedRetailer'
 import BannerWithText from '../components/BannerWithText'
 import ContactUs from '../components/ContactUs'
@@ -14,11 +16,56 @@ import Opthalmic from '../components/Opthalmic'
 import SunCollection from '../components/SunCollection'
 import Button from '../components/UI/Button'
 
+
 export default function Home() {
+
+  const [node,setNode] = useState();
+
+  useEffect(() => {
+    
+    return () => {
+      setTimeout(() => {
+
+        setNode(          <Head>
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(
+
+            {
+              "@context": "https://schema.org/", 
+              "@type": "BreadcrumbList", 
+              "itemListElement": [{
+                "@type": "ListItem", 
+                "position": 0, 
+                "name": "Home",
+                "item": "https://natrol.myshopify.com"  
+              },{
+                "@type": "ListItem", 
+                "position": 1, 
+                "name": "Adults",
+                "item": "https://natrol.myshopify.com/collections/adults-supplements"  
+              },{
+                "@type": "ListItem", 
+                "position": 2, 
+                "name": "Sleep+ Calm Capsules",
+                "item": "https://natrol.myshopify.com/products/sleep-plus-calm-sleep-support-capsules"  
+              }]
+            }
+            
+            )}}
+          >
+            
+          </script>
+        </Head>);
+
+      }, 500);
+    };
+  }, []);
+
   return (
 
     <div className="flex flex-col">
-      
+      {node}
       <Head>
         <title>Eredità-Cineplex | Shop The Movies</title>
       </Head>
