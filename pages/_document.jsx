@@ -30,7 +30,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(          
             {
              "@context": "https://schema.org/",
-             "@type": "Product",
+             "@type": "",
              "name": "Sleep+ Calm Capsules",
              "image": "https://cdn.shopify.com/s/files/1/0616/2130/5564/products/Natrol-SleepPlus-Calm-Capsules-30ct-Front_320x.png?v=1654659896",
              "description": "Natrol Sleep+ Calm helps calm an active mind and body, and ease you to sleep.†",
