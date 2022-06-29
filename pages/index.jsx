@@ -22,44 +22,32 @@ export default function Home() {
   const [node,setNode] = useState("test");
 
   useEffect(() => {
-    
-    return () => {
-      setTimeout(() => {
 
-        setNode(          <Head>
-          <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(
+    const head =  document.head;
+    const script = document.createElement("script");
+    script.innerHTML = `        {
+      "@context": "https://schema.org/", 
+      "@type": "BreadcrumbList", 
+      "itemListElement": [{
+        "@type": "ListItem", 
+        "position": 0, 
+        "name": "Home",
+        "item": "https://natrol.myshopify.com"  
+      },{
+        "@type": "ListItem", 
+        "position": 1, 
+        "name": "Adults",
+        "item": "https://natrol.myshopify.com/collections/adults-supplements"  
+      },{
+        "@type": "ListItem", 
+        "position": 2, 
+        "name": "Sleep+ Calm Capsules",
+        "item": "https://natrol.myshopify.com/products/sleep-plus-calm-sleep-support-capsules"  
+      }]
+    }`; 
+    script.type="application/ld+json";
+    head.appendChild(script);
 
-            {
-              "@context": "https://schema.org/", 
-              "@type": "BreadcrumbList", 
-              "itemListElement": [{
-                "@type": "ListItem", 
-                "position": 0, 
-                "name": "Home",
-                "item": "https://natrol.myshopify.com"  
-              },{
-                "@type": "ListItem", 
-                "position": 1, 
-                "name": "Adults",
-                "item": "https://natrol.myshopify.com/collections/adults-supplements"  
-              },{
-                "@type": "ListItem", 
-                "position": 2, 
-                "name": "Sleep+ Calm Capsules",
-                "item": "https://natrol.myshopify.com/products/sleep-plus-calm-sleep-support-capsules"  
-              }]
-            }
-            
-            )}}
-          >
-            
-          </script>
-        </Head>);
-
-      }, 500);
-    };
   }, []);
 
   return (
