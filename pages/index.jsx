@@ -48,7 +48,7 @@ export default function Home() {
       }`; 
       script.type="application/ld+json";
       head.appendChild(script);
-    },400)
+    },1000)
 
   }, []);
 
