@@ -54,7 +54,7 @@ export default function Document() {
              "ratingValue": "4.1",
              "bestRating": "5",
              "worstRating": "1",
-              ratingCount: "26"
+              ratingCount: "25"
              }
             }
             ) }}
