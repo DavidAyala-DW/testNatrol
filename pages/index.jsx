@@ -19,7 +19,7 @@ import Button from '../components/UI/Button'
 
 export default function Home() {
 
-  const [node,setNode] = useState();
+  const [node,setNode] = useState("test");
 
   useEffect(() => {
     
